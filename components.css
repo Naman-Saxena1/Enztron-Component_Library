@@ -55,6 +55,7 @@ body
 .introduction div
 {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .introduction button
