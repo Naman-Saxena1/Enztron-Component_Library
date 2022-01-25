@@ -52,6 +52,11 @@ body
     font-size:x-large;
 }
 
+.introduction div
+{
+    display: flex;
+}
+
 .introduction button
 {
     min-width: 273px;
