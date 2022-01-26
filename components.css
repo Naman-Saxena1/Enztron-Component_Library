@@ -1,8 +1,15 @@
-@import url('/CSS-styles/logo.css');
+@import url('/Components/Logo/logo.css');
+
+:root
+{
+    --primary-dark-blue-color: #333258;
+    --secondary-cream-color  : #F3F3F3;
+    --light-grey : rgb(243, 243, 243)
+}
 
 html, body {
     height: 100%;
-    background-color: #333258;
+    background-color: var(--secondary-cream-color);
 }
 
 html
@@ -30,15 +37,15 @@ body
 {
     height: 100%;
     min-width: 50%;
-    background-color: #F3F3F3;
+    background-color: var(--secondary-cream-color);
 }
 
 .introduction
 {
     height: 100%;
     min-width: 50%;
-    background-color: #333258;
-    color: #F3F3F3;
+    background-color: var(--primary-dark-blue-color);
+    color: var(--secondary-cream-color);
     display: flex;
     flex-direction: column;
     padding: 0 4rem;
@@ -66,8 +73,8 @@ body
     padding: 1rem;
     margin: 1rem;
     border-radius: 55px;
-    color: #333258;
-    background-color: #F3F3F3;
+    color: var(--primary-dark-blue-color);
+    background-color: var(--secondary-cream-color);
 }
 
 @media only screen and (max-width: 830px) 
@@ -89,4 +96,149 @@ body
         width: 100%;
         flex-grow: 1;
     }
+}
+
+
+/* For all scrollbars */
+*::-webkit-scrollbar 
+{
+    width: 1.5em;
+    height: 1em;
+}
+  
+*::-webkit-scrollbar-track 
+{
+    background: var(--light-grey);
+    border-radius: 100vw;
+    margin-block: 0.5em;
+}
+  
+*::-webkit-scrollbar-thumb 
+{
+    background: var(--primary-dark-blue-color);
+    border-radius: 100vw;
+}
+
+
+
+
+
+
+
+
+
+/* Home Page */
+hr
+{
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.doc-container
+{
+    display: flex;
+}
+
+.side-bar
+{
+    min-width: 260px;
+    width: 20%;
+    padding: 0;
+    margin: 0;
+}
+
+.side-bar ul
+{
+    height: 70%;
+    position: relative;
+    list-style: none; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 2rem 0; 
+    overflow-y: auto;
+    gap: 15px;
+}
+
+.side-bar ul li
+{
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding-left: 6rem;
+    font-weight: 1000;
+    color: var(--primary-dark-blue-color);
+    cursor:default;
+}
+
+.side-bar-topics a
+{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+a::after
+{
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: var(--primary-dark-blue-color);
+    transition: width .3s;
+}
+
+a:hover::after
+{
+    width: 100%;
+}
+
+#side-bar-headings
+{
+    font-size: 20px;
+    padding-left: 4rem;
+}
+
+@media (max-width:480px)  
+{  
+
+    .doc-container .side-bar
+    {
+        min-width: 200px;
+        width: 10%;
+    }
+
+    .side-bar ul li
+    {
+        padding-left: 3rem;
+    }
+
+    #side-bar-headings
+    {
+        padding-left: 1rem;
+    }
+}
+
+
+.vertice-line{
+    border-left: 1px solid #ccc;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+/* Main content div */
+main
+{
+    width: 75%;
 }
