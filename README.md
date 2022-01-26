@@ -1,2 +1,2 @@
 # Enztron-Component_Library
-This is development branch of Enztron Component Library.
+Enztron is an Open Source light CSS library to easily build UI with pre-customized structures.
