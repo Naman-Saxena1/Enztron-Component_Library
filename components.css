@@ -9,13 +9,13 @@
 
 html, body {
     background-color: var(--secondary-cream-color);
+    height: 100%;
 }
 
 html
 {
     min-width: 720px;
     width: 100%;
-    height: fit-content;
 }
 
 body
