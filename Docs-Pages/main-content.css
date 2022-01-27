@@ -11,7 +11,7 @@ main
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    padding: 5rem 2rem;
+    padding: 5rem 0rem;
     box-sizing: border-box;
 }
 

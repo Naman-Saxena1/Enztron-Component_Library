@@ -15,6 +15,7 @@ hr
 
 .doc-container
 {
+    min-width: 910px;
     display: flex;
     box-sizing: border-box;
 }
@@ -102,7 +103,7 @@ a:hover::after
     width: 100%;
 }
 
-@media (max-width:480px)  
+@media (max-width:1060px)  
 {  
 
     .doc-container .side-bar
