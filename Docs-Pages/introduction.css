@@ -16,6 +16,7 @@ hr
 .doc-container
 {
     display: flex;
+    box-sizing: border-box;
 }
 
 .side-bar
