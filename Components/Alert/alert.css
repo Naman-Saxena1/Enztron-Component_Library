@@ -1,0 +1,61 @@
+.alert-container
+{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: #F5F7F9;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+    box-sizing: border-box;
+    gap: 1rem;
+}
+
+.alert
+{
+    width: 100%;
+    background-color: var(--primary-dark-blue-color);
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+
+.alert-primary
+{
+    color: var(--background-color);
+    background-color: var(--primary-dark-blue-color);
+}
+
+.alert-secondary
+{
+    color: var(--background-color);
+    background-color: var(--secondary-pink-color);
+}
+
+.alert-error
+{
+    color: var(--background-color);
+    background-color: var(--failure-or-error);
+}
+
+.alert-success
+{
+    color: var(--background-color);
+    background-color: var(--success);
+}
+
+.alert-warning
+{
+    color: var(--background-color);
+    background-color: var(--warning);
+}
+
+.alert-button
+{
+    height: fit-content;
+}
