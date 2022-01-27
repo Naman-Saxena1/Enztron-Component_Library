@@ -1,0 +1,116 @@
+/* Main content div */
+main
+{
+    width: 75%;
+    background-image: linear-gradient(120deg, #BD5D78 0%, #EF836D 100%);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.content-container hr
+{
+    margin: 4rem 0;
+}
+
+.content-container
+{
+    width: 92%;
+    height: fit-content;
+    padding: 6rem;
+    margin: 2rem 2rem;
+    box-sizing: border-box;
+    background-color: var(--secondary-cream-color);
+}
+
+
+
+
+/* Typography */
+.typography-headings
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    background-color: #EF836D;
+}
+
+
+
+
+
+
+
+/* Colors */
+.pallete
+{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    border: 1px solid black;
+}
+
+.pallete div
+{
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    background-color: white;
+}
+
+.pallete div
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.pallete div p
+{
+    margin: 0;
+}
+
+#color-1
+{
+    color: var(--secondary-cream-color);
+    background-color: var(--primary-dark-blue-color);
+}
+
+#color-2
+{
+    background-color: var(--compilmentary-pink-color);
+}
+
+#color-3
+{
+    background-color: var(--extra-orange-color);
+}
+
+#color-4
+{
+    background-color: var(--secondary-cream-color);
+}
+
+#color-5
+{
+    background-color: var(--failure-or-error);
+}
+
+#color-6
+{
+    background-color: var(--success);
+}
+
+#color-7
+{
+    background-color: var(--warning);
+}

@@ -1,9 +1,17 @@
 @import url('/Components/Logo/logo.css');
+@import url('/Docs-Pages/introduction.css');
+@import url('/Docs-Pages/main-content.css');
 
 :root
 {
     --primary-dark-blue-color: #333258;
     --secondary-cream-color  : #F3F3F3;
+    --compilmentary-pink-color:#BD5D78;
+    --extra-orange-color      : #EF836D;
+    --compilmentary-blue-color:#1AB3B3;
+    --failure-or-error        :#F44336;
+    --success                 :#4CAF50;
+    --warning                 :#FF9800;
     --light-grey : rgb(243, 243, 243)
 }
 
@@ -23,6 +31,29 @@ body
     font-size: 62.5%;
     margin: 0;
     font-family: 'Comfortaa', cursive;
+}
+
+
+
+h1
+{
+    font-size: 32px;
+}
+
+h2
+{
+    font-size: 24px;
+}
+
+h3
+{
+    font-size: 18.72px;
+}
+
+p
+{
+    font-size: 1rem;
+    line-height: 27px;
 }
 
 a
@@ -108,142 +139,28 @@ a
 /* For all scrollbars */
 *::-webkit-scrollbar 
 {
-    width: 1.5em;
+    /* width: 1.5em; */
     height: 1em;
 }
   
 *::-webkit-scrollbar-track 
 {
     background: var(--light-grey);
-    border-radius: 100vw;
-    margin-block: 0.5em;
 }
   
 *::-webkit-scrollbar-thumb 
 {
-    background: var(--primary-dark-blue-color);
-    border-radius: 100vw;
+    background: #A76691;
 }
 
-
-
-
-
-
-
-
-
-/* Home Page */
-hr
+.example-code
 {
-    border-bottom: 0;
+    font-size: 1rem;
+    height: max-content;
+    margin-bottom: 3rem;
+}
+
+.intro-code
+{
     margin-bottom: 0;
-}
-
-.doc-container
-{
-    display: flex;
-}
-
-.side-bar
-{
-    min-width: 260px;
-    height: fit-content;
-    width: 20%;
-    padding: 0;
-    margin: 0;
-}
-
-.side-bar ul
-{
-    height: 70%;
-    position: relative;
-    list-style: none; 
-    display: flex; 
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center; 
-    padding: 2rem 0; 
-    overflow-y: auto;
-    gap: 15px;
-}
-
-.side-bar ul li
-{
-    width: 100%;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    box-sizing: border-box;
-    padding-left: 6rem;
-    font-weight: 1000;
-    color: var(--primary-dark-blue-color);
-    cursor:default;
-}
-
-.side-bar-topics a
-{
-    font-size: 16px;
-}
-
-a::after
-{
-    content: '';
-    display: block;
-    width: 0px;
-    height: 2px;
-    background: var(--primary-dark-blue-color);
-    transition: width .3s;
-}
-
-a:hover::after
-{
-    width: 100%;
-}
-
-#side-bar-headings
-{
-    font-size: 20px;
-    padding-left: 4rem;
-}
-
-@media (max-width:480px)  
-{  
-
-    .doc-container .side-bar
-    {
-        min-width: 200px;
-        width: 10%;
-    }
-
-    .side-bar ul li
-    {
-        padding-left: 3rem;
-    }
-
-    #side-bar-headings
-    {
-        padding-left: 1rem;
-    }
-}
-
-
-.vertice-line{
-    border-left: 1px solid #ccc;
-}
-
-
-
-
-
-
-
-
-
-
-/* Main content div */
-main
-{
-    width: 75%;
 }

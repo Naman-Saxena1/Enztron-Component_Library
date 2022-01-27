@@ -1,0 +1,127 @@
+/* Home Page */
+
+/* Overriding user agent link styles */
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+hr
+{
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.doc-container
+{
+    display: flex;
+}
+
+.side-bar
+{
+    min-width: 260px;
+    height: fit-content;
+    width: 20%;
+    padding: 0;
+    margin: 0;
+}
+
+.side-bar ul
+{
+    height: 70%;
+    position: relative;
+    list-style: none; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 2rem 0; 
+    overflow-y: auto;
+    gap: 15px;
+}
+
+.side-bar ul li
+{
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding-left: 6rem;
+    font-weight: 1000;
+    color: var(--primary-dark-blue-color);
+    cursor:default;
+}
+
+.side-bar-topics a
+{
+    font-size: 16px;
+}
+
+a::after
+{
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: var(--primary-dark-blue-color);
+    transition: width .3s;
+}
+
+a:hover::after
+{
+    width: 100%;
+}
+
+#side-bar-headings
+{
+    font-size: 20px;
+    padding-left: 4rem;
+}
+
+.active-class a
+{
+    color: var(--compilmentary-blue-color);
+}
+
+.active-class a::after
+{
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: var(--compilmentary-blue-color);
+    transition: width .3s;
+}
+
+.active-class a:hover::after
+{
+    width: 100%;
+}
+
+@media (max-width:480px)  
+{  
+
+    .doc-container .side-bar
+    {
+        min-width: 200px;
+        width: 10%;
+    }
+
+    .side-bar ul li
+    {
+        padding-left: 3rem;
+    }
+
+    #side-bar-headings
+    {
+        padding-left: 1rem;
+    }
+}
+
+
+.vertice-line{
+    border-left: 1px solid #ccc;
+}
+
