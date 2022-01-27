@@ -51,7 +51,10 @@ body
     font-family: 'Comfortaa', cursive;
 }
 
-
+nav
+{
+    background-image: url(./Icons-and-Images/header-background-2.svg);
+}
 
 h1
 {
