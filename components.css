@@ -22,10 +22,10 @@
 
 :root
 {
-    --primary-dark-blue-color: #333258;
-    --secondary-cream-color  : #F3F3F3;
-    --compilmentary-pink-color:#BD5D78;
-    --extra-orange-color      : #EF836D;
+    --primary-dark-blue-color :#333258;
+    --secondary-pink-color    :#BD5D78;
+    --background-color        :#F3F3F3;
+    --extra-orange-color      :#EF836D;
     --compilmentary-blue-color:#1AB3B3;
     --failure-or-error        :#F44336;
     --success                 :#4CAF50;
@@ -34,14 +34,20 @@
 }
 
 html, body {
-    background-color: var(--secondary-cream-color);
+    background-color: var(--background-color);
     height: 100%;
+    min-width: 720px;
 }
 
 html
 {
-    min-width: 720px;
     width: 100%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after 
+{
+    box-sizing: inherit;
 }
 
 body
@@ -53,6 +59,7 @@ body
 
 nav
 {
+    width: 100%;
     background-image: url(./Icons-and-Images/header-background-2.svg);
 }
 
@@ -94,7 +101,7 @@ a
 {
     height: 100%;
     min-width: 50%;
-    background-color: var(--secondary-cream-color);
+    background-color: var(--background-color);
 }
 
 .introduction
@@ -102,7 +109,7 @@ a
     height: 100%;
     min-width: 50%;
     background-color: var(--primary-dark-blue-color);
-    color: var(--secondary-cream-color);
+    color: var(--background-color);
     display: flex;
     flex-direction: column;
     padding: 0 4rem;
@@ -131,7 +138,7 @@ a
     margin: 1rem;
     border-radius: 55px;
     color: var(--primary-dark-blue-color);
-    background-color: var(--secondary-cream-color);
+    background-color: var(--background-color);
     cursor: pointer;
 }
 
@@ -176,6 +183,7 @@ a
 
 .example-code
 {
+    width: 100%;
     font-size: 1rem;
     height: max-content;
     margin-bottom: 3rem;
@@ -184,4 +192,9 @@ a
 .intro-code
 {
     margin-bottom: 0;
+}
+
+.note
+{
+    color: var(--failure-or-error);
 }
