@@ -27,9 +27,9 @@
     --background-color        :#F3F3F3;
     --extra-orange-color      :#EF836D;
     --compilmentary-blue-color:#1AB3B3;
-    --failure-or-error        :#F44336;
-    --success                 :#4CAF50;
-    --warning                 :#FF9800;
+    --notification-or-error   :#F44336;
+    --onlinestatus-or-success :#4CAF50;
+    --awaystatus-or-warning   :#FF9800;
     --light-grey : rgb(243, 243, 243)
 }
 
@@ -196,5 +196,7 @@ a
 
 .note
 {
-    color: var(--failure-or-error);
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 35px;
 }

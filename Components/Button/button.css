@@ -1,0 +1,411 @@
+.button-container
+{
+    width: 100%;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3rem 1rem;
+}
+
+
+/* Primary Solid Buttons */
+.solid-primary-btn
+{
+    min-width: 120px;
+    min-height: 45px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    font-family: Comfortaa;
+    color: var(--background-color);
+    background-color: var(--primary-dark-blue-color);
+}
+
+.solid-primary-btn
+{
+    background-position: center;
+    transition: background 0.5s;
+}
+
+.solid-primary-btn:hover
+{
+    background: #514f8b
+                radial-gradient(circle, transparent 1%, 
+                                    var(--primary-dark-blue-color) 1%) center/15000%;
+}
+
+.solid-primary-btn:active 
+{
+    background-color: var(--primary-dark-blue-color);
+    background-size: 100%;
+    transition: background 0s;
+}
+
+
+
+.solid-secondary-btn
+{
+    min-width: 120px;
+    min-height: 45px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    font-family: Comfortaa;
+    color: var(--background-color);
+    background-color: var(--secondary-pink-color);
+}
+
+.solid-secondary-btn 
+{
+    background-position: center;
+    transition: background 0.5s;
+}
+
+.solid-secondary-btn:hover 
+{
+    background: #db6b8b
+                radial-gradient(circle, transparent 1%, 
+                                    var(--secondary-pink-color) 1%) center/15000%;
+}
+
+.solid-secondary-btn:active 
+{
+    background-color: var(--secondary-pink-color);
+    background-size: 100%;
+    transition: background 0s;
+}
+
+
+
+
+.solid-error-btn
+{
+    min-width: 120px;
+    min-height: 45px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    font-family: Comfortaa;
+    color: var(--background-color);
+    background-color: var(--notification-or-error);
+}
+
+.solid-error-btn 
+{
+    background-position: center;
+    transition: background 0.5s;
+}
+
+.solid-error-btn:hover 
+{
+    background: #ff5f53
+                radial-gradient(circle, transparent 1%, 
+                                    var(--notification-or-error) 1%) center/15000%;
+}
+
+.solid-error-btn:active 
+{
+    background-color: var(--notification-or-error);
+    background-size: 100%;
+    transition: background 0s;
+}
+
+.solid-success-btn
+{
+    min-width: 120px;
+    min-height: 45px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    font-family: Comfortaa;
+    color: var(--background-color);
+    background-color: var(--onlinestatus-or-success);
+}
+
+.solid-success-btn 
+{
+    background-position: center;
+    transition: background 0.5s;
+}
+
+.solid-success-btn:hover 
+{
+    background: #59d15d
+                radial-gradient(circle, transparent 1%, 
+                                    var(--onlinestatus-or-success) 1%) center/15000%;
+}
+
+.solid-success-btn:active 
+{
+    background-color: var(--onlinestatus-or-success);
+    background-size: 100%;
+    transition: background 0s;
+}
+
+.solid-warning-btn
+{
+    min-width: 120px;
+    min-height: 45px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    font-family: Comfortaa;
+    color: var(--background-color);
+    background-color: var(--awaystatus-or-warning);
+}
+
+.solid-warning-btn 
+{
+    background-position: center;
+    transition: background 0.5s;
+}
+
+.solid-warning-btn:hover 
+{
+    background: #ffb649
+                radial-gradient(circle, transparent 1%, 
+                                    var(--awaystatus-or-warning) 1%) center/15000%;
+}
+
+.solid-warning-btn:active 
+{
+    background-color: var(--awaystatus-or-warning);
+    background-size: 100%;
+    transition: background 0s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Outline Buttons */
+.outline-primary-btn
+{
+    min-width: 120px;
+    min-height: 45px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid var(--primary-dark-blue-color);
+    border-radius: 4px;
+    font-family: Comfortaa;
+    color: var(--primary-dark-blue-color);
+    background-color: var(--background-color);
+}
+
+.outline-primary-btn
+{
+    background-position: center;
+    transition: background 0.5s;
+}
+
+.outline-primary-btn:hover
+{
+    background: rgb(235, 235, 235)
+                radial-gradient(circle, transparent 1%, 
+                rgb(243, 243, 243) 1%) center/15000%;
+}
+
+.outline-primary-btn:active 
+{
+    background-color: rgb(243, 243, 243);
+    background-size: 100%;
+    transition: background 0s;
+}
+
+
+.outline-secondary-btn
+{
+    min-width: 120px;
+    min-height: 45px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid var(--secondary-pink-color);
+    border-radius: 4px;
+    font-family: Comfortaa;
+    color: var(--secondary-pink-color);
+    background-color: var(--background-color);
+}
+
+.outline-secondary-btn
+{
+    background-position: center;
+    transition: background 0.5s;
+}
+
+.outline-secondary-btn:hover
+{
+    background: rgb(235, 235, 235)
+                radial-gradient(circle, transparent 1%, 
+                rgb(243, 243, 243) 1%) center/15000%;
+}
+
+.outline-secondary-btn:active 
+{
+    background-color: rgb(243, 243, 243);
+    background-size: 100%;
+    transition: background 0s;
+}
+
+
+
+
+.outline-error-btn
+{
+    min-width: 120px;
+    min-height: 45px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid var(--notification-or-error);
+    border-radius: 4px;
+    font-family: Comfortaa;
+    color: var(--notification-or-error);
+    background-color: var(--background-color);
+}
+
+.outline-error-btn
+{
+    background-position: center;
+    transition: background 0.5s;
+}
+
+.outline-error-btn:hover
+{
+    background: rgb(235, 235, 235)
+                radial-gradient(circle, transparent 1%, 
+                rgb(243, 243, 243) 1%) center/15000%;
+}
+
+.outline-error-btn:active 
+{
+    background-color: rgb(243, 243, 243);
+    background-size: 100%;
+    transition: background 0s;
+}
+
+.outline-success-btn
+{
+    min-width: 120px;
+    min-height: 45px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid var(--onlinestatus-or-success);
+    border-radius: 4px;
+    font-family: Comfortaa;
+    color: var(--onlinestatus-or-success);
+    background-color: var(--background-color);
+}
+
+.outline-success-btn
+{
+    background-position: center;
+    transition: background 0.5s;
+}
+
+.outline-success-btn:hover
+{
+    background: rgb(235, 235, 235)
+                radial-gradient(circle, transparent 1%, 
+                rgb(243, 243, 243) 1%) center/15000%;
+}
+
+.outline-success-btn:active 
+{
+    background-color: rgb(243, 243, 243);
+    background-size: 100%;
+    transition: background 0s;
+}
+
+.outline-warning-btn
+{
+    min-width: 120px;
+    min-height: 45px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid var(--awaystatus-or-warning);
+    border-radius: 4px;
+    font-family: Comfortaa;
+    color: var(--awaystatus-or-warning);
+    background-color: var(--background-color);
+}
+
+.outline-warning-btn
+{
+    background-position: center;
+    transition: background 0.5s;
+}
+
+.outline-warning-btn:hover
+{
+    background: rgb(235, 235, 235)
+                radial-gradient(circle, transparent 1%, 
+                rgb(243, 243, 243) 1%) center/15000%;
+}
+
+.outline-warning-btn:active 
+{
+    background-color: rgb(243, 243, 243);
+    background-size: 100%;
+    transition: background 0s;
+}
+
+
+
+
+/* Link Buttons */
+
+.link-btn a::after
+{
+    width: 0;
+    height: 0;
+}
+
+.link-btn a:hover::after
+{
+    width: 0;
+}
+
+
+
+
+
+
+/* Icon Buttons */
+.icon-btn
+{
+    min-width: 3rem;
+    min-height: 3rem;
+    padding: 1rem;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.icon-btn:hover
+{
+    background-color: var(--background-color)
+}
+
+
+
+
+/* Floating Action Button */
+.floating-action-btn
+{
+    position: fixed;
+    bottom: 6rem;
+    right: 4rem;
+}

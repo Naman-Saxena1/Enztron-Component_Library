@@ -97,15 +97,15 @@ main
 
 #color-5
 {
-    background-color: var(--failure-or-error);
+    background-color: var(--notification-or-error);
 }
 
 #color-6
 {
-    background-color: var(--success);
+    background-color: var(--onlinestatus-or-success);
 }
 
 #color-7
 {
-    background-color: var(--warning);
+    background-color: var(--awaystatus-or-warning);
 }
