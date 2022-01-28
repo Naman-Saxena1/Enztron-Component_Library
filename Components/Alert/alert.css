@@ -9,7 +9,6 @@
     flex-direction: column;
     flex-wrap: wrap;
     padding: 1rem;
-    box-sizing: border-box;
     gap: 1rem;
 }
 
@@ -22,7 +21,6 @@
     justify-content: space-between;
     align-items: center;
     flex-grow: 1;
-    box-sizing: border-box;
 }
 
 .alert-primary
