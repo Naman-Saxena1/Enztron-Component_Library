@@ -85,7 +85,7 @@ a:hover::after
 
 .active-class a
 {
-    color: var(--compilmentary-blue-color);
+    color: var(--complimentary-blue-color);
 }
 
 .active-class a::after
@@ -94,7 +94,7 @@ a:hover::after
     display: block;
     width: 0px;
     height: 2px;
-    background: var(--compilmentary-blue-color);
+    background: var(--complimentary-blue-color);
     transition: width .3s;
 }
 

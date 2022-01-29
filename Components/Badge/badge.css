@@ -17,15 +17,21 @@
     position: relative;
 }
 
-.count-badge-5x
+.count-badge-5x, .count-badge-4x, .count-badge-3x, .count-badge-2x,
+.status-badge-5x, .status-badge-4x, .status-badge-3x, .status-badge-2x,
+.status-badge-x
 {
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--background-color);
+    border-radius: 50%;
+}
+
+.count-badge-5x
+{
     background-color:  var(--notification-or-error);
-    border-radius: 100%;
-    color: white;
     width: 2rem;
     height: 2rem;
     top: -25px;
@@ -35,29 +41,17 @@
 
 .count-badge-4x
 {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color:  var(--notification-or-error);
-    border-radius: 100%;
-    color: white;
     width: 1.5rem;
     height: 1.5rem;
     top: -20px;
     right: -20px;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .count-badge-3x
 {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color:  var(--notification-or-error);
-    border-radius: 100%;
-    color: white;
     width: 1.2rem;
     height: 1.2rem;
     top: -15px;
@@ -67,13 +61,7 @@
 
 .count-badge-2x
 {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color:  var(--notification-or-error);
-    border-radius: 100%;
-    color: white;
     width: 1rem;
     height: 1rem;
     top: -12px;
@@ -83,13 +71,7 @@
 
 .status-badge-5x
 {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color:  var(--onlinestatus-or-success);
-    border-radius: 100%;
-    color: white;
     width: 2rem;
     height: 2rem;
     bottom: 0px;
@@ -100,13 +82,7 @@
 
 .status-badge-4x
 {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color:  var(--onlinestatus-or-success);
-    border-radius: 100%;
-    color: white;
     width: 1.5rem;
     height: 1.5rem;
     bottom: 0px;
@@ -117,13 +93,7 @@
 
 .status-badge-3x
 {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color:  var(--onlinestatus-or-success);
-    border-radius: 100%;
-    color: white;
     width: 1.2rem;
     height: 1.2rem;
     bottom: 0px;
@@ -134,13 +104,7 @@
 
 .status-badge-2x
 {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color:  var(--onlinestatus-or-success);
-    border-radius: 100%;
-    color: white;
     width: 1rem;
     height: 1rem;
     bottom: 0px;
@@ -151,13 +115,7 @@
 
 .status-badge-x
 {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100%;
     background-color:  var(--onlinestatus-or-success);
-    color: white;
     width: 10px;
     height: 10px;
     bottom: 0px;
@@ -173,7 +131,7 @@
 
 .status-offline
 {
-    background-color:  rgb(172, 172, 172);
+    background-color:  var(--offline-grey-color);
 }
 
 .status-busy

@@ -14,9 +14,9 @@
 /* Primary Solid Buttons */
 .solid-primary-btn
 {
-    min-width: 120px;
-    min-height: 45px;
-    padding: 10px;
+    min-width: 9rem;
+    min-height: 3rem;
+    padding: 1rem;
     margin: 5px;
     border: none;
     border-radius: 4px;
@@ -49,9 +49,9 @@
 
 .solid-secondary-btn
 {
-    min-width: 120px;
-    min-height: 45px;
-    padding: 10px;
+    min-width: 9rem;
+    min-height: 3rem;
+    padding: 1rem;
     margin: 5px;
     border: none;
     border-radius: 4px;
@@ -85,9 +85,9 @@
 
 .solid-error-btn
 {
-    min-width: 120px;
-    min-height: 45px;
-    padding: 10px;
+    min-width: 9rem;
+    min-height: 3rem;
+    padding: 1rem;
     margin: 5px;
     border: none;
     border-radius: 4px;
@@ -118,9 +118,9 @@
 
 .solid-success-btn
 {
-    min-width: 120px;
-    min-height: 45px;
-    padding: 10px;
+    min-width: 9rem;
+    min-height: 3rem;
+    padding: 1rem;
     margin: 5px;
     border: none;
     border-radius: 4px;
@@ -151,9 +151,9 @@
 
 .solid-warning-btn
 {
-    min-width: 120px;
-    min-height: 45px;
-    padding: 10px;
+    min-width: 9rem;
+    min-height: 3rem;
+    padding: 1rem;
     margin: 5px;
     border: none;
     border-radius: 4px;
@@ -196,9 +196,9 @@
 /* Outline Buttons */
 .outline-primary-btn
 {
-    min-width: 120px;
-    min-height: 45px;
-    padding: 10px;
+    min-width: 9rem;
+    min-height: 3rem;
+    padding: 1rem;
     margin: 5px;
     border: 1px solid var(--primary-dark-blue-color);
     border-radius: 4px;
@@ -230,9 +230,9 @@
 
 .outline-secondary-btn
 {
-    min-width: 120px;
-    min-height: 45px;
-    padding: 10px;
+    min-width: 9rem;
+    min-height: 3rem;
+    padding: 1rem;
     margin: 5px;
     border: 1px solid var(--secondary-pink-color);
     border-radius: 4px;
@@ -266,9 +266,9 @@
 
 .outline-error-btn
 {
-    min-width: 120px;
-    min-height: 45px;
-    padding: 10px;
+    min-width: 9rem;
+    min-height: 3rem;
+    padding: 1rem;
     margin: 5px;
     border: 1px solid var(--notification-or-error);
     border-radius: 4px;
@@ -299,9 +299,9 @@
 
 .outline-success-btn
 {
-    min-width: 120px;
-    min-height: 45px;
-    padding: 10px;
+    min-width: 9rem;
+    min-height: 3rem;
+    padding: 1rem;
     margin: 5px;
     border: 1px solid var(--onlinestatus-or-success);
     border-radius: 4px;
@@ -332,9 +332,9 @@
 
 .outline-warning-btn
 {
-    min-width: 120px;
-    min-height: 45px;
-    padding: 10px;
+    min-width: 9rem;
+    min-height: 3rem;
+    padding: 1rem;
     margin: 5px;
     border: 1px solid var(--awaystatus-or-warning);
     border-radius: 4px;
