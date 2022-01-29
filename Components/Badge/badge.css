@@ -1,0 +1,145 @@
+.icon-badge-container
+{
+    width: 100%;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3rem 1rem;
+}
+
+.icon-count-badge
+{
+    display: flex;
+    align-items:center;
+    position: relative;
+}
+
+.count-badge-5x, .count-badge-4x, .count-badge-3x, .count-badge-2x,
+.status-badge-5x, .status-badge-4x, .status-badge-3x, .status-badge-2x,
+.status-badge-x
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--background-color);
+    border-radius: 50%;
+}
+
+.count-badge-5x
+{
+    background-color:  var(--notification-or-error);
+    width: 2rem;
+    height: 2rem;
+    top: -25px;
+    right: -25px;
+    font-size: 1rem;
+}
+
+.count-badge-4x
+{
+    background-color:  var(--notification-or-error);
+    width: 1.5rem;
+    height: 1.5rem;
+    top: -20px;
+    right: -20px;
+    font-size: 1rem;
+}
+
+.count-badge-3x
+{
+    background-color:  var(--notification-or-error);
+    width: 1.2rem;
+    height: 1.2rem;
+    top: -15px;
+    right: -15px;
+    font-size: 12px;
+}
+
+.count-badge-2x
+{
+    background-color:  var(--notification-or-error);
+    width: 1rem;
+    height: 1rem;
+    top: -12px;
+    right: -12px;
+    font-size: 10px;
+}
+
+.status-badge-5x
+{
+    background-color:  var(--onlinestatus-or-success);
+    width: 2rem;
+    height: 2rem;
+    bottom: 0px;
+    right: 0px;
+    font-size: 1rem;
+    box-shadow: 0 0 0 4px var(--background-color);
+}
+
+.status-badge-4x
+{
+    background-color:  var(--onlinestatus-or-success);
+    width: 1.5rem;
+    height: 1.5rem;
+    bottom: 0px;
+    right: 0px;
+    font-size: 15px;
+    box-shadow: 0 0 0 3px var(--background-color);
+}
+
+.status-badge-3x
+{
+    background-color:  var(--onlinestatus-or-success);
+    width: 1.2rem;
+    height: 1.2rem;
+    bottom: 0px;
+    right: 0px;
+    font-size: 12px;
+    box-shadow: 0 0 0 3px var(--background-color);
+}
+
+.status-badge-2x
+{
+    background-color:  var(--onlinestatus-or-success);
+    width: 1rem;
+    height: 1rem;
+    bottom: 0px;
+    right: 0px;
+    font-size: 10px;
+    box-shadow: 0 0 0 3px var(--background-color);
+}
+
+.status-badge-x
+{
+    background-color:  var(--onlinestatus-or-success);
+    width: 10px;
+    height: 10px;
+    bottom: 0px;
+    right: 0px;
+    font-size: 10px;
+    box-shadow: 0 0 0 2px var(--background-color);
+}
+
+.status-online
+{
+    background-color:  var(--onlinestatus-or-success);
+}
+
+.status-offline
+{
+    background-color:  var(--offline-grey-color);
+}
+
+.status-busy
+{
+    background-color:  var(--notification-or-error);
+}
+
+.status-away
+{
+    background-color:  var(--awaystatus-or-warning);
+}

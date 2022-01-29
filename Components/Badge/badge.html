@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css" integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ==" crossorigin="anonymous" />
     <link rel="stylesheet" href="../../components.css">
     <link rel="icon" type="image/x-icon" href="../../Icons-and-Images/favicon-icon.png">
@@ -13,7 +14,7 @@
 <body>
 
     <nav>
-        <div onclick="location.href='https://enztron.netlify.app/docs-pages/introduction'" class="logo2-container-horizontal">
+        <div onclick="location.href='/'" class="logo2-container-horizontal">
             <div id="logo2">
                 <div id="logo2-hexagon-1">
                     <div class="logo2-upper-part"></div>
@@ -75,8 +76,139 @@
             <div class="content-container">
                 <h1>Badge</h1>
                 <p>
-                    Badges will come here.
+                    Badges are used to show extra information to user like 
+                    online/offline status, number of unread notifications, number of items in a cart , etc.
                 </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>Number Count Badges</h2>
+                <div class="icon-badge-container">
+                    <div class="icon-count-badge">
+                        <i class="fa fa-shopping-cart fa-5x" aria-hidden="true" ></i>
+                        <span class="count-badge-5x">5</span>
+                    </div>
+                    <div class="icon-count-badge">
+                        <i class="fa fa-bell fa-4x" aria-hidden="true" ></i>
+                        <span class="count-badge-4x">4</span>
+                    </div>
+                    <div class="icon-count-badge">
+                        <i class="fa fa-envelope-o fa-3x" aria-hidden="true" ></i>
+                        <span class="count-badge-3x">3</span>
+                    </div>
+                    <div class="icon-count-badge">
+                        <i class="fa fa-comments fa-2x" aria-hidden="true" ></i>
+                        <span class="count-badge-2x">2</span>
+                    </div>
+                </div>
+                <br>
+                <br>
+
+                <div class="example-code intro-code">
+                    <pre>
+                        <code class="html">
+&lt;div class="icon-count-badge"&gt;
+    &lt;i class="fa fa-shopping-cart fa-5x" aria-hidden="true" &gt;&lt;/i&gt;
+    &lt;span class="count-badge-5x"&gt;5&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="icon-count-badge"&gt;
+    &lt;i class="fa fa-bell fa-4x" aria-hidden="true" &gt;&lt;/i&gt;
+    &lt;span class="count-badge-4x"&gt;4&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="icon-count-badge"&gt;
+    &lt;i class="fa fa-envelope-o fa-3x" aria-hidden="true" &gt;&lt;/i&gt;
+    &lt;span class="count-badge-3x"&gt;3&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="icon-count-badge"&gt;
+    &lt;i class="fa fa-comments fa-2x" aria-hidden="true" &gt;&lt;/i&gt;
+    &lt;span class="count-badge-2x"&gt;2&lt;/span&gt;
+&lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+                <h2 class="note-heading">Note :</h2> 
+                <p class="note">
+                    1) Make sure to use 2 classes for proper results - <br>
+                        &nbsp;&nbsp;&nbsp;<b>icon-count-badge</b> on container div and <b>count-badge-5x</b> (or any other badge size) on badge span<br><br>
+                    2) Make sure to use badge size class that matches Font Awesome icon size <br>
+                        &nbsp;&nbsp;&nbsp; <b>Example</b> - count-badge-2x with fa-2x
+                </p>
+                <br>
+                <br>
+                <h2>Profile Status Badges</h2>
+                <div class="icon-badge-container">
+                    <div class="avatar avatar-x-large">
+                        <img class="avatar-img" src="../../Icons-and-Images/Avatars/1920x1280-image-avatar.jpg" alt="avatar"/>
+                        <span class="status-badge-5x status-online"></span>
+                    </div>
+                    <div class="avatar avatar-large">
+                        <img class="avatar-img" src="../../Icons-and-Images/Avatars/1920x1280-image-avatar.jpg" alt="avatar"/>
+                        <span class="status-badge-4x status-offline"></span>
+                    </div>
+                    <div class="avatar avatar-regular">
+                        <img class="avatar-img" src="../../Icons-and-Images/Avatars/1920x1280-image-avatar.jpg" alt="avatar"/>
+                        <span class="status-badge-3x status-busy"></span>
+                    </div>
+                    <div class="avatar avatar-small">
+                        <img class="avatar-img" src="../../Icons-and-Images/Avatars/1920x1280-image-avatar.jpg" alt="avatar"/>
+                        <span class="status-badge-2x status-away"></span>
+                    </div>
+                    <div class="avatar avatar-x-small">
+                        <img class="avatar-img" src="../../Icons-and-Images/Avatars/1920x1280-image-avatar.jpg" alt="avatar"/>
+                        <span class="status-badge-x status-away"></span>
+                    </div>
+                </div>
+                <br>
+                <br>
+
+                <div class="example-code intro-code">
+                    <pre>
+                        <code class="html">
+&lt;div class="avatar avatar-x-large"&gt;
+    &lt;img class="avatar-img" src="..." alt="avatar"/&gt;
+    &lt;span class="status-badge-5x status-online"&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="avatar avatar-large"&gt;
+    &lt;img class="avatar-img" src="..." alt="avatar"/&gt;
+    &lt;span class="status-badge-4x status-offline"&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="avatar avatar-regular"&gt;
+    &lt;img class="avatar-img" src="..." alt="avatar"/&gt;
+    &lt;span class="status-badge-3x status-busy"&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="avatar avatar-small"&gt;
+    &lt;img class="avatar-img" src="..." alt="avatar"/&gt;
+    &lt;span class="status-badge-2x status-away"&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class="avatar avatar-x-small"&gt;
+    &lt;img class="avatar-img" src="..." alt="avatar"/&gt;
+    &lt;span class="status-badge-x status-away"&gt;&lt;/span&gt;
+&lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+                <h2 class="note-heading">Note :</h2> 
+                <p class="note">
+                    Make sure to use 2 classes for proper results - <br>
+                        &nbsp;&nbsp;&nbsp; 1) <b>status-badge-3x (or of any other size according to profile size)</b> on status span <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; There are <b>5 sizes</b> of status class - <b>status-badge-5x</b>, <b>status-badge-4x</b>,
+                        <b>status-badge-3x</b>, <b>status-badge-2x</b> and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>status-badge-x</b> <br> <br>
+
+                        &nbsp;&nbsp;&nbsp; 2) <b>status-online (or any other status type)</b> <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; There are <b>4 types</b> of status class - <b>status-online</b>, <b>status-offline</b>,
+                        <b>status-busy</b> and <b>status-away</b>
+                </p>
+            
+                <br>
+                <br>
 
             </div>
         </main>

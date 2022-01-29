@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css" integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ==" crossorigin="anonymous" />
     <link rel="stylesheet" href="../../components.css">
     <link rel="icon" type="image/x-icon" href="../../Icons-and-Images/favicon-icon.png">
@@ -13,7 +14,7 @@
 <body>
 
     <nav>
-        <div onclick="location.href='https://enztron.netlify.app/docs-pages/introduction'" class="logo2-container-horizontal">
+        <div onclick="location.href='/'" class="logo2-container-horizontal">
             <div id="logo2">
                 <div id="logo2-hexagon-1">
                     <div class="logo2-upper-part"></div>
@@ -75,8 +76,142 @@
             <div class="content-container">
                 <h1>Button</h1>
                 <p>
-                    Buttons will come here.
+                    Buttons are used to take some action or do any particular task. <br>
+                    Enztron has 4 types of button components - <br>
+                    1) Primary Buttons <br>
+                    2) Ouline Buttons <br>
+                    3) Link Buttons <br>
+                    4) Icon Buttons <br>
+                    5) Floating Action Button <br>
                 </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>Solid Buttons</h2>
+                <div class="button-container">
+                    <button class="solid-primary-btn">Primary Button</button>
+                    <button class="solid-secondary-btn">Secondary Button</button>
+                    <button class="solid-error-btn">Error Button</button>
+                    <button class="solid-success-btn">Success Button</button>
+                    <button class="solid-warning-btn">Warning Button</button>
+                </div>
+                <br>
+                <br>
+
+                <div class="example-code intro-code">
+                    <pre>
+                        <code class="html">
+&lt;button class="solid-primary-btn"&gt;Primary Button&lt;/button&gt;
+&lt;button class="solid-secondary-btn"&gt;Secondary Button&lt;/button&gt;
+&lt;button class="solid-error-btn"&gt;Error Button&lt;/button&gt;
+&lt;button class="solid-success-btn"&gt;Success Button&lt;/button&gt;
+&lt;button class="solid-warning-btn"&gt;Warning Button&lt;/button&gt;
+                        </code>
+                    </pre>
+                </div>
+
+           
+                <br>
+                <br>
+                <h2>Outline Buttons</h2>
+                <div class="button-container">
+                    <button class="outline-primary-btn">Primary Button</button>
+                    <button class="outline-secondary-btn">Secondary Button</button>
+                    <button class="outline-error-btn">Error Button</button>
+                    <button class="outline-success-btn">Success Button</button>
+                    <button class="outline-warning-btn">Warning Button</button>
+                </div>
+                <br>
+                <br>
+
+                <div class="example-code intro-code">
+                    <pre>
+                        <code class="html">
+&lt;button class="outline-primary-btn"&gt;Primary Button&lt;/button&gt;
+&lt;button class="outline-secondary-btn"&gt;Secondary Button&lt;/button&gt;
+&lt;button class="outline-error-btn"&gt;Error Button&lt;/button&gt;
+&lt;button class="outline-success-btn"&gt;Success Button&lt;/button&gt;
+&lt;button class="outline-warning-btn"&gt;Warning Button&lt;/button&gt;
+                        </code>
+                    </pre>
+                </div>
+
+           
+                <br>
+                <br>
+                <h2>Link Buttons</h2>
+                <div class="button-container">
+                    <button class="solid-primary-btn link-btn"><a href="../Badge/badge.html">Primary Solid Link Button</a></button>
+                    <button class="outline-primary-btn link-btn"><a href="../Badge/badge.html">Primary Outline Link Button</a></button>
+                    <button class="solid-secondary-btn link-btn"><a href="../Badge/badge.html">Secondary Solid Link Button</a></button>
+                    <button class="outline-secondary-btn link-btn"><a href="../Badge/badge.html">Secondary Outline Link Button</a></button>
+                </div>
+                <br>
+                <br>
+
+                <div class="example-code intro-code">
+                    <pre>
+                        <code class="html">
+&lt;button class="solid-primary-btn link-btn"&gt;&lt;a href="..."&gt;Primary Solid Link Button&lt;/a&gt;&lt;/button&gt;
+&lt;button class="outline-primary-btn link-btn"&gt;&lt;a href="..."&gt;Primary Outline Link Button&lt;/a&gt;&lt;/button&gt;
+&lt;button class="solid-secondary-btn link-btn"&gt;&lt;a href="..."&gt;Secondary Solid Link Button&lt;/a&gt;&lt;/button&gt;
+&lt;button class="outline-secondary-btn link-btn"&gt;&lt;a href="..."&gt;Secondary Outline Link Button&lt;/a&gt;&lt;/button&gt;
+                        </code>
+                    </pre>
+                </div>
+
+           
+                <br>
+                <br>
+                <h2>Icon Buttons</h2>
+                <div class="button-container">
+                    <button class="icon-btn"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                    <button class="icon-btn"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></button>
+                    <button class="icon-btn"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                    <button class="icon-btn"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+                    <button class="icon-btn"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></button>
+                </div>
+                <br>
+                <br>
+
+                <div class="example-code intro-code">
+                    <pre>
+                        <code class="html">
+&lt;button class="icon-btn"&gt;&lt;i class="fa fa-heart-o" aria-hidden="true"&gt;&lt;/i&gt;&lt;/button&gt;
+&lt;button class="icon-btn"&gt;&lt;i class="fa fa-thumbs-o-up" aria-hidden="true"&gt;&lt;/i&gt;&lt;/button&gt;
+&lt;button class="icon-btn"&gt;&lt;i class="fa fa-bars" aria-hidden="true"&gt;&lt;/i&gt;&lt;/button&gt;
+&lt;button class="icon-btn"&gt;&lt;i class="fa fa-share-alt" aria-hidden="true"&gt;&lt;/i&gt;&lt;/button&gt;
+&lt;button class="icon-btn"&gt;&lt;i class="fa fa-ellipsis-v" aria-hidden="true"&gt;&lt;/i&gt;&lt;/button&gt;
+                        </code>
+                    </pre>
+                </div>
+
+           
+                <br>
+                <br>
+                <h2>Floating Action Buttons</h2>
+                <button class="icon-btn floating-action-btn"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                <p>
+                    It is the button which floats with the UI represents the primary action in an application
+                    <br> 
+                    Example : It is the + button on this page that is floating with scroll
+                </p>
+                <br>
+                <br>
+
+                <div class="example-code intro-code">
+                    <pre>
+                        <code class="html">
+&lt;button class="icon-btn floating-action-btn"&gt;&lt;i class="fa fa-plus" aria-hidden="true"&gt;&lt;/i&gt;&lt;/button&gt;
+                        </code>
+                    </pre>
+                </div>
+
+           
+                <br>
+                <br>
+
 
             </div>
         </main>
