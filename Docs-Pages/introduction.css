@@ -38,7 +38,7 @@ hr
     flex-direction: column;
     justify-content: space-between;
     align-items: center; 
-    padding: 2rem 0; 
+    padding: 3.2rem 0; 
     overflow-y: auto;
     gap: 15px;
 }
@@ -51,7 +51,7 @@ hr
     flex-direction: column;
     align-items: flex-start;
     box-sizing: border-box;
-    padding-left: 6rem;
+    padding-left: 9.6rem;
     font-weight: 1000;
     color: var(--primary-dark-blue-color);
     cursor:default;
@@ -80,7 +80,7 @@ a:hover::after
 #side-bar-headings
 {
     font-size: 20px;
-    padding-left: 4rem;
+    padding-left: 6.4rem;
 }
 
 .active-class a
@@ -114,12 +114,12 @@ a:hover::after
 
     .side-bar ul li
     {
-        padding-left: 3rem;
+        padding-left: 4.8rem;
     }
 
     #side-bar-headings
     {
-        padding-left: 1rem;
+        padding-left: 1.6rem;
     }
 }
 
