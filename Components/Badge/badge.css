@@ -4,10 +4,11 @@
     height: fit-content;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     display: flex;
+    background-color: #F5F7F9;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    padding: 3rem 1rem;
+    padding: 4.8rem 1.6rem;
 }
 
 .icon-count-badge
@@ -32,28 +33,28 @@
 .count-badge-5x
 {
     background-color:  var(--notification-or-error);
-    width: 2rem;
-    height: 2rem;
+    width: 3.2rem;
+    height: 3.2rem;
     top: -25px;
     right: -25px;
-    font-size: 1rem;
+    font-size: 1.6rem;
 }
 
 .count-badge-4x
 {
     background-color:  var(--notification-or-error);
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2.4rem;
+    height: 2.4rem;
     top: -20px;
     right: -20px;
-    font-size: 1rem;
+    font-size: 1.6rem;
 }
 
 .count-badge-3x
 {
     background-color:  var(--notification-or-error);
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 1.92rem;
+    height: 1.92rem;
     top: -15px;
     right: -15px;
     font-size: 12px;
@@ -62,8 +63,8 @@
 .count-badge-2x
 {
     background-color:  var(--notification-or-error);
-    width: 1rem;
-    height: 1rem;
+    width: 1.6rem;
+    height: 1.6rem;
     top: -12px;
     right: -12px;
     font-size: 10px;
@@ -72,19 +73,19 @@
 .status-badge-5x
 {
     background-color:  var(--onlinestatus-or-success);
-    width: 2rem;
-    height: 2rem;
+    width: 3.2rem;
+    height: 3.2rem;
     bottom: 0px;
     right: 0px;
-    font-size: 1rem;
+    font-size: 1.6rem;
     box-shadow: 0 0 0 4px var(--background-color);
 }
 
 .status-badge-4x
 {
     background-color:  var(--onlinestatus-or-success);
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2.4rem;
+    height: 2.4rem;
     bottom: 0px;
     right: 0px;
     font-size: 15px;
@@ -94,8 +95,8 @@
 .status-badge-3x
 {
     background-color:  var(--onlinestatus-or-success);
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 1.92rem;
+    height: 1.92rem;
     bottom: 0px;
     right: 0px;
     font-size: 12px;
@@ -105,8 +106,8 @@
 .status-badge-2x
 {
     background-color:  var(--onlinestatus-or-success);
-    width: 1rem;
-    height: 1rem;
+    width: 1.6rem;
+    height: 1.6rem;
     bottom: 0px;
     right: 0px;
     font-size: 10px;

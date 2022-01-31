@@ -36,7 +36,7 @@
             </div>
         </div>
 
-        <a href="https://github.com/Naman-Saxena1/Enztron-Component_Library" class="github-link">GitHub Docs</a>
+        <a href="https://github.com/Naman-Saxena1/Enztron-Component_Library" class="github-link">GitHub</a>
     </nav>
     <hr>
 
@@ -75,8 +75,132 @@
             <div class="content-container">
                 <h1>Image</h1>
                 <p>
-                    Images will come here.
+                    Responsive images are used to display appropriate image according to screen dimensions,
+                    density, resolution & art direction (landscape/potrait mode). 
                 </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>Responsive Image</h2>
+                
+                <div class="responsive-img-container">
+                    <img
+                        src="https://picsum.photos/id/338/100"
+                        srcset="https://picsum.photos/id/338/400 410w,
+                                https://picsum.photos/id/650/600 600w,
+                                https://picsum.photos/id/450/800 800w"
+                        sizes="(min-width: 1240px) 700px, 
+                               (min-width: 960px)  600px, 400px"
+                    />
+                </div>
+
+                <br>
+                <br>
+                
+                <h3>Responsive Image Demo</h3>
+                <video width="100%" height="fit-content" controls>
+                    <source src="../../Videos/Enztron_Responsive-Image-Demo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <br>
+                <br>
+                <p>
+                    <b>Note : </b><br>
+                    1) For this demo while in Chrome Dev Tools responsive mode,
+                    I have set <b>DPR : 1</b> at top-center bar settings. 
+                    If you use other DPR values, browser will pick best possible image according
+                    to it.<br>
+                    2) For demo purpose I used different images with different dimensions 
+                    so that difference is noticable but in practical <b>we would be using 
+                    same image with different dimensions.</b>
+                </p>
+                <br>
+                <br>
+
+                <div class="example-code intro-code">
+                    <pre>
+                        <code class="html">
+&lt;img
+    src="https://picsum.photos/id/338/100"
+    srcset="https://picsum.photos/id/338/400 410w,
+            https://picsum.photos/id/650/600 600w,
+            https://picsum.photos/id/450/800 800w"
+    sizes=" (min-width: 1240px) 700px, 
+            (min-width: 960px)  600px, 400px"
+/&gt;
+                        </code>
+                    </pre>
+                </div>
+
+                <br>
+                <br>
+                <h2>Square Images</h2>
+                <div>
+                    <p>
+                        Above image is original image and below is same image with class <b>square-image</b> <br>
+                        <b>Note : </b> It shrinks image to fit into square because <b>object-fit: fill</b> which you can override
+                        according to your needs.
+                    </p>
+                    <div class="img-container">
+                        <img src="../../Icons-and-Images/For-Square-and-Round-Images/samuel-ferrara-1527pjeb6jg-unsplash.jpg" 
+                             alt="mountain-image"/>
+                        <img class="square-image"
+                             src="../../Icons-and-Images/For-Square-and-Round-Images/samuel-ferrara-1527pjeb6jg-unsplash.jpg" 
+                             alt="mountain-image"/>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+
+                <div class="example-code intro-code">
+                    <pre>
+                        <code class="html">
+&lt;img src="..." 
+     alt="mountain-image"/&gt;
+&lt;img class="square-image"
+     src="..." 
+     alt="mountain-image"/&gt;
+                        </code>
+                    </pre>
+                </div>
+
+                <br>
+                <br>
+                <h2>Round Images</h2>
+                <div>
+                    <p>
+                        Above image is original image and below is same image with class <b>round-image</b> <br>
+                        <b>Note : </b> It shrinks image to fit into square because <b>object-fit: fill</b> which you can override
+                        according to your needs.
+                    </p>
+                    <div class="img-container">
+                        <img src="../../Icons-and-Images/For-Square-and-Round-Images/chad-madden-cPa-7yByq3o-unsplash.jpg" 
+                             alt="mountain-image"/>
+                        <img class="round-image"
+                             src="../../Icons-and-Images/For-Square-and-Round-Images/chad-madden-cPa-7yByq3o-unsplash.jpg" 
+                             alt="mountain-image"/>
+                    </div>
+                </div>
+                <br>
+                <br>
+
+                <div class="example-code intro-code">
+                    <pre>
+                        <code class="html">
+&lt;img src="..." 
+     alt="mountain-image"/&gt;
+&lt;img class="round-image"
+     src="..." 
+     alt="mountain-image"/&gt;
+                        </code>
+                    </pre>
+                </div>
+
+                <br>
+                <br>
+
 
             </div>
         </main>

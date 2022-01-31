@@ -8,15 +8,15 @@
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 1rem;
-    gap: 1rem;
+    padding: 1.6rem;
+    gap: 1.6rem;
 }
 
 .alert
 {
     width: 100%;
     background-color: var(--primary-dark-blue-color);
-    padding: 0 1rem;
+    padding: 0 1.6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;

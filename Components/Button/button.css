@@ -4,19 +4,20 @@
     height: fit-content;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     display: flex;
+    background-color: #F5F7F9;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    padding: 3rem 1rem;
+    padding: 4.8rem 1.6rem;
 }
 
 
 /* Primary Solid Buttons */
 .solid-primary-btn
 {
-    min-width: 9rem;
-    min-height: 3rem;
-    padding: 1rem;
+    min-width: 14.4rem;
+    min-height: 4.8rem;
+    padding: 1.6rem;
     margin: 5px;
     border: none;
     border-radius: 4px;
@@ -49,9 +50,9 @@
 
 .solid-secondary-btn
 {
-    min-width: 9rem;
-    min-height: 3rem;
-    padding: 1rem;
+    min-width: 14.4rem;
+    min-height: 4.8rem;
+    padding: 1.6rem;
     margin: 5px;
     border: none;
     border-radius: 4px;
@@ -85,9 +86,9 @@
 
 .solid-error-btn
 {
-    min-width: 9rem;
-    min-height: 3rem;
-    padding: 1rem;
+    min-width: 14.4rem;
+    min-height: 4.8rem;
+    padding: 1.6rem;
     margin: 5px;
     border: none;
     border-radius: 4px;
@@ -118,9 +119,9 @@
 
 .solid-success-btn
 {
-    min-width: 9rem;
-    min-height: 3rem;
-    padding: 1rem;
+    min-width: 14.4rem;
+    min-height: 4.8rem;
+    padding: 1.6rem;
     margin: 5px;
     border: none;
     border-radius: 4px;
@@ -151,9 +152,9 @@
 
 .solid-warning-btn
 {
-    min-width: 9rem;
-    min-height: 3rem;
-    padding: 1rem;
+    min-width: 14.4rem;
+    min-height: 4.8rem;
+    padding: 1.6rem;
     margin: 5px;
     border: none;
     border-radius: 4px;
@@ -196,9 +197,9 @@
 /* Outline Buttons */
 .outline-primary-btn
 {
-    min-width: 9rem;
-    min-height: 3rem;
-    padding: 1rem;
+    min-width: 14.4rem;
+    min-height: 4.8rem;
+    padding: 1.6rem;
     margin: 5px;
     border: 1px solid var(--primary-dark-blue-color);
     border-radius: 4px;
@@ -230,9 +231,9 @@
 
 .outline-secondary-btn
 {
-    min-width: 9rem;
-    min-height: 3rem;
-    padding: 1rem;
+    min-width: 14.4rem;
+    min-height: 4.8rem;
+    padding: 1.6rem;
     margin: 5px;
     border: 1px solid var(--secondary-pink-color);
     border-radius: 4px;
@@ -266,9 +267,9 @@
 
 .outline-error-btn
 {
-    min-width: 9rem;
-    min-height: 3rem;
-    padding: 1rem;
+    min-width: 14.4rem;
+    min-height: 4.8rem;
+    padding: 1.6rem;
     margin: 5px;
     border: 1px solid var(--notification-or-error);
     border-radius: 4px;
@@ -299,9 +300,9 @@
 
 .outline-success-btn
 {
-    min-width: 9rem;
-    min-height: 3rem;
-    padding: 1rem;
+    min-width: 14.4rem;
+    min-height: 4.8rem;
+    padding: 1.6rem;
     margin: 5px;
     border: 1px solid var(--onlinestatus-or-success);
     border-radius: 4px;
@@ -332,9 +333,9 @@
 
 .outline-warning-btn
 {
-    min-width: 9rem;
-    min-height: 3rem;
-    padding: 1rem;
+    min-width: 14.4rem;
+    min-height: 4.8rem;
+    padding: 1.6rem;
     margin: 5px;
     border: 1px solid var(--awaystatus-or-warning);
     border-radius: 4px;
@@ -387,9 +388,9 @@
 /* Icon Buttons */
 .icon-btn
 {
-    min-width: 3rem;
-    min-height: 3rem;
-    padding: 1rem;
+    min-width: 4.8rem;
+    min-height: 4.8rem;
+    padding: 1.6rem;
     border-radius: 100%;
     background-color: white;
 }
@@ -406,6 +407,6 @@
 .floating-action-btn
 {
     position: fixed;
-    bottom: 6rem;
-    right: 4rem;
+    bottom: 9.6rem;
+    right: 6.4rem;
 }

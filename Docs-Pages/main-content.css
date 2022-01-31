@@ -11,19 +11,19 @@ main
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    padding: 5rem 0rem;
+    padding: 8rem 0rem;
     box-sizing: border-box;
 }
 
 .content-container hr
 {
-    margin: 4rem 0;
+    margin: 6.4rem 0;
 }
 
 .content-container
 {
     width: 92%;
-    padding: 6rem;
+    padding: 9.6rem;
     box-sizing: border-box;
     background-color: var(--background-color);
 }
@@ -65,7 +65,7 @@ main
     justify-content: space-between;
     align-items: center;
     flex-shrink: 1;
-    padding: 1rem;
+    padding: 1.6rem;
     border: 1px solid black;
 }
 
