@@ -32,7 +32,9 @@
     --onlinestatus-or-success :#4CAF50;
     --awaystatus-or-warning   :#FF9800;
     --light-grey              :rgb(243, 243, 243);
+    --grey                    :rgb(228, 228, 228);
     --light-yellow            :rgb(224, 224, 212);
+    --white                   :white;
 }
 
 html, body {
@@ -85,7 +87,7 @@ h3
     font-size: 1.87rem;
 }
 
-p
+p, center
 {
     font-size: 1.6rem;
     line-height: 2.7rem;
