@@ -95,6 +95,7 @@
 
 .post-img
 {
+    max-width: 36rem;
     max-height: 40rem;
     align-self: center;
 }
