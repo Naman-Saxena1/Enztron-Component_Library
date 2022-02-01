@@ -75,13 +75,59 @@
             <div class="content-container">
                 <h1>Input</h1>
                 <p>
-                    Inputs will come here.
+                    Inputs are used to receive information from the user for various purposes.<br>
+                    Example - User signup/login authentication or to get user's delivery address for our E-commerce store.
                 </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>Input for Signup</h2>
+                <div class="responsive-img-container">
+                    <form class="signup-form">
+                        <h3>Signup</h3>
+                        <input id="signup-input-name" class="signup-form-input" type="text" placeholder="Name" required/>
+                        <input id="signup-input-email" class="signup-form-input" type="email" placeholder="Email" required/>
+                        <input id="signup-input-password" class="signup-form-input" type="password" placeholder="Password" required/>
+                        <button type="submit" class="form-signup-btn">Signup</button>
+                    </form>
+                </div>
+                <br>
+                <br>
 
+                <div class="example-code intro-code">
+                    <pre>
+                        <code class="html">
+&lt;form class="signup-form"&gt;
+    &lt;h3&gt;Signup&lt;/h3&gt;
+    &lt;input id="signup-input-name" 
+              class="signup-form-input" 
+              type="text" 
+              placeholder="Name" required/&gt;
+
+    &lt;input id="signup-input-email" 
+              class="signup-form-input" 
+              type="email" 
+              placeholder="Email" required/&gt;
+
+    &lt;input id="signup-input-password" 
+              class="signup-form-input" 
+              type="password" 
+              placeholder="Password" required/&gt;
+              
+    &lt;button type="submit" class="form-signup-btn"&gt;Signup&lt;/button&gt;
+&lt;/form&gt;
+                        </code>
+                    </pre>
+                </div>
+
+                <br>
+                <br>
             </div>
         </main>
     </div>
 
+    <script src="./form-input.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
 </body>
