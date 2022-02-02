@@ -75,13 +75,36 @@
             <div class="content-container">
                 <h1>Modal</h1>
                 <p>
-                    Modals will come here.
+                    Modals are pop-ups that are used to show important information to the user. <br>
+                    Modals are different from Dialog Box as the user can't continue work on site
+                    until user responds to the Modal. While in case of Dialog Box, user can continue working
+                    on site without necessarily interacting with it.
                 </p>
-
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>Modal Example</h2>
+                <div class="modal-example-container">
+                    <button onclick="openModal()" class="show-modal-btn outline-secondary-btn">Show Modal</button>
+                    <div class="component-modal">
+                        <div class="modal-container">
+                            <div class="modal">
+                                <h2>Modal Header</h2>
+                                <h3>Modal body text</h3>
+                                <div class="modal-buttons">
+                                    <button class="modal-action-btn solid-primary-btn">Modal Action 1</button>
+                                    <button class="modal-action-btn solid-secondary-btn">Modal Action 2</button>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
             </div>
         </main>
     </div>
 
+    <script src="modal.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
 </body>

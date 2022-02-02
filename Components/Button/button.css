@@ -16,9 +16,9 @@
 .solid-primary-btn
 {
     min-width: 14.4rem;
-    min-height: 4.8rem;
-    padding: 1.6rem;
-    margin: 5px;
+    min-height: 2.2rem;
+    padding: 1.2rem;
+    margin: 0 1rem;
     border: none;
     border-radius: 4px;
     font-family: Comfortaa;
@@ -51,9 +51,9 @@
 .solid-secondary-btn
 {
     min-width: 14.4rem;
-    min-height: 4.8rem;
-    padding: 1.6rem;
-    margin: 5px;
+    min-height: 2.2rem;
+    padding: 1.2rem;
+    margin: 0 1rem;
     border: none;
     border-radius: 4px;
     font-family: Comfortaa;
@@ -87,9 +87,9 @@
 .solid-error-btn
 {
     min-width: 14.4rem;
-    min-height: 4.8rem;
-    padding: 1.6rem;
-    margin: 5px;
+    min-height: 2.2rem;
+    padding: 1.2rem;
+    margin: 0 1rem;
     border: none;
     border-radius: 4px;
     font-family: Comfortaa;
@@ -120,9 +120,9 @@
 .solid-success-btn
 {
     min-width: 14.4rem;
-    min-height: 4.8rem;
-    padding: 1.6rem;
-    margin: 5px;
+    min-height: 2.2rem;
+    padding: 1.2rem;
+    margin: 0 1rem;
     border: none;
     border-radius: 4px;
     font-family: Comfortaa;
@@ -153,9 +153,9 @@
 .solid-warning-btn
 {
     min-width: 14.4rem;
-    min-height: 4.8rem;
-    padding: 1.6rem;
-    margin: 5px;
+    min-height: 2.2rem;
+    padding: 1.2rem;
+    margin: 0 1rem;
     border: none;
     border-radius: 4px;
     font-family: Comfortaa;
@@ -198,9 +198,9 @@
 .outline-primary-btn
 {
     min-width: 14.4rem;
-    min-height: 4.8rem;
-    padding: 1.6rem;
-    margin: 5px;
+    min-height: 2.2rem;
+    padding: 1.2rem;
+    margin: 0 1rem;
     border: 1px solid var(--primary-dark-blue-color);
     border-radius: 4px;
     font-family: Comfortaa;
@@ -232,9 +232,9 @@
 .outline-secondary-btn
 {
     min-width: 14.4rem;
-    min-height: 4.8rem;
-    padding: 1.6rem;
-    margin: 5px;
+    min-height: 2.2rem;
+    padding: 1.2rem;
+    margin: 0 1rem;
     border: 1px solid var(--secondary-pink-color);
     border-radius: 4px;
     font-family: Comfortaa;
@@ -268,9 +268,9 @@
 .outline-error-btn
 {
     min-width: 14.4rem;
-    min-height: 4.8rem;
-    padding: 1.6rem;
-    margin: 5px;
+    min-height: 2.2rem;
+    padding: 1.2rem;
+    margin: 0 1rem;
     border: 1px solid var(--notification-or-error);
     border-radius: 4px;
     font-family: Comfortaa;
@@ -301,9 +301,9 @@
 .outline-success-btn
 {
     min-width: 14.4rem;
-    min-height: 4.8rem;
-    padding: 1.6rem;
-    margin: 5px;
+    min-height: 2.2rem;
+    padding: 1.2rem;
+    margin: 0 1rem;
     border: 1px solid var(--onlinestatus-or-success);
     border-radius: 4px;
     font-family: Comfortaa;
@@ -334,9 +334,9 @@
 .outline-warning-btn
 {
     min-width: 14.4rem;
-    min-height: 4.8rem;
-    padding: 1.6rem;
-    margin: 5px;
+    min-height: 2.2rem;
+    padding: 1.2rem;
+    margin: 0 1rem;
     border: 1px solid var(--awaystatus-or-warning);
     border-radius: 4px;
     font-family: Comfortaa;
@@ -369,6 +369,13 @@
 
 /* Link Buttons */
 
+.link-btn
+{
+    min-height: 2.2rem;
+    padding: 1.2rem;
+    margin: 0 1rem;
+}
+
 .link-btn a::after
 {
     width: 0;
@@ -388,10 +395,10 @@
 /* Icon Buttons */
 .icon-btn
 {
-    min-width: 4.8rem;
-    min-height: 4.8rem;
-    padding: 1.6rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 100%;
+    margin: 0 1rem;
     background-color: white;
 }
 
