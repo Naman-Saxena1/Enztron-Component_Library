@@ -35,8 +35,8 @@
     background-color:  var(--notification-or-error);
     width: 3.2rem;
     height: 3.2rem;
-    top: -25px;
-    right: -25px;
+    top: -15px;
+    right: -15px;
     font-size: 1.6rem;
 }
 
@@ -45,8 +45,8 @@
     background-color:  var(--notification-or-error);
     width: 2.4rem;
     height: 2.4rem;
-    top: -20px;
-    right: -20px;
+    top: -10px;
+    right: -8px;
     font-size: 1.6rem;
 }
 
@@ -55,8 +55,8 @@
     background-color:  var(--notification-or-error);
     width: 1.92rem;
     height: 1.92rem;
-    top: -15px;
-    right: -15px;
+    top: -10px;
+    right: -10px;
     font-size: 12px;
 }
 
@@ -65,8 +65,8 @@
     background-color:  var(--notification-or-error);
     width: 1.6rem;
     height: 1.6rem;
-    top: -12px;
-    right: -12px;
+    top: -10px;
+    right: -10px;
     font-size: 10px;
 }
 
