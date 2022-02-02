@@ -89,10 +89,10 @@
     min-width: 1rem;
     min-height: 2rem;
     padding: 10px;
-    border: 1px solid var(--primary-dark-blue-color);
+    border: 1px solid var(--dark-blue-color);
     border-radius: 4px;
     font-family: Comfortaa;
-    color: var(--primary-dark-blue-color);
+    color: var(--dark-blue-color);
     background-color: white;
 }
 
@@ -105,15 +105,15 @@
 .outline-card-secondary-btn:hover
 {
     color: var(--background-color);
-    border-color: var(--secondary-pink-color);
-    background: var(--secondary-pink-color)
+    border-color: var(--pink-color);
+    background: var(--pink-color)
                 radial-gradient(circle, transparent 1%, 
                 rgb(243, 243, 243) 1%) center/15000%;
 }
 
 .outline-card-secondary-btn:active 
 {
-    color: var(--secondary-pink-color);
+    color: var(--pink-color);
     background-color: rgb(243, 243, 243);
     background-size: 100%;
     transition: background 0s;

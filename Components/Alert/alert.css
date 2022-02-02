@@ -15,7 +15,7 @@
 .alert
 {
     width: 100%;
-    background-color: var(--primary-dark-blue-color);
+    background-color: var(--dark-blue-color);
     padding: 0 1.6rem;
     display: flex;
     justify-content: space-between;
@@ -26,13 +26,13 @@
 .alert-primary
 {
     color: var(--background-color);
-    background-color: var(--primary-dark-blue-color);
+    background-color: var(--dark-blue-color);
 }
 
 .alert-secondary
 {
     color: var(--background-color);
-    background-color: var(--secondary-pink-color);
+    background-color: var(--pink-color);
 }
 
 .alert-error

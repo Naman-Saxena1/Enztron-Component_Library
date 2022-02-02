@@ -13,41 +13,6 @@
 
 
 /* Primary Solid Buttons */
-.solid-primary-btn
-{
-    min-width: 14.4rem;
-    min-height: 2.2rem;
-    padding: 1.2rem;
-    margin: 0 1rem;
-    border: none;
-    border-radius: 4px;
-    font-family: Comfortaa;
-    color: var(--background-color);
-    background-color: var(--primary-dark-blue-color);
-}
-
-.solid-primary-btn
-{
-    background-position: center;
-    transition: background 0.5s;
-}
-
-.solid-primary-btn:hover
-{
-    background: #514f8b
-                radial-gradient(circle, transparent 1%, 
-                                    var(--primary-dark-blue-color) 1%) center/15000%;
-}
-
-.solid-primary-btn:active 
-{
-    background-color: var(--primary-dark-blue-color);
-    background-size: 100%;
-    transition: background 0s;
-}
-
-
-
 .solid-secondary-btn
 {
     min-width: 14.4rem;
@@ -58,25 +23,60 @@
     border-radius: 4px;
     font-family: Comfortaa;
     color: var(--background-color);
-    background-color: var(--secondary-pink-color);
+    background-color: var(--dark-blue-color);
 }
 
-.solid-secondary-btn 
+.solid-secondary-btn
 {
     background-position: center;
     transition: background 0.5s;
 }
 
-.solid-secondary-btn:hover 
+.solid-secondary-btn:hover
 {
-    background: #db6b8b
+    background: #514f8b
                 radial-gradient(circle, transparent 1%, 
-                                    var(--secondary-pink-color) 1%) center/15000%;
+                                    var(--dark-blue-color) 1%) center/15000%;
 }
 
 .solid-secondary-btn:active 
 {
-    background-color: var(--secondary-pink-color);
+    background-color: var(--dark-blue-color);
+    background-size: 100%;
+    transition: background 0s;
+}
+
+
+
+.solid-primary-btn
+{
+    min-width: 14.4rem;
+    min-height: 2.2rem;
+    padding: 1.2rem;
+    margin: 0 1rem;
+    border: none;
+    border-radius: 4px;
+    font-family: Comfortaa;
+    color: var(--background-color);
+    background-color: var(--pink-color);
+}
+
+.solid-primary-btn 
+{
+    background-position: center;
+    transition: background 0.5s;
+}
+
+.solid-primary-btn:hover 
+{
+    background: #db6b8b
+                radial-gradient(circle, transparent 1%, 
+                                    var(--pink-color) 1%) center/15000%;
+}
+
+.solid-primary-btn:active 
+{
+    background-color: var(--pink-color);
     background-size: 100%;
     transition: background 0s;
 }
@@ -195,50 +195,16 @@
 
 
 /* Outline Buttons */
-.outline-primary-btn
-{
-    min-width: 14.4rem;
-    min-height: 2.2rem;
-    padding: 1.2rem;
-    margin: 0 1rem;
-    border: 1px solid var(--primary-dark-blue-color);
-    border-radius: 4px;
-    font-family: Comfortaa;
-    color: var(--primary-dark-blue-color);
-    background-color: var(--background-color);
-}
-
-.outline-primary-btn
-{
-    background-position: center;
-    transition: background 0.5s;
-}
-
-.outline-primary-btn:hover
-{
-    background: rgb(235, 235, 235)
-                radial-gradient(circle, transparent 1%, 
-                rgb(243, 243, 243) 1%) center/15000%;
-}
-
-.outline-primary-btn:active 
-{
-    background-color: rgb(243, 243, 243);
-    background-size: 100%;
-    transition: background 0s;
-}
-
-
 .outline-secondary-btn
 {
     min-width: 14.4rem;
     min-height: 2.2rem;
     padding: 1.2rem;
     margin: 0 1rem;
-    border: 1px solid var(--secondary-pink-color);
+    border: 1px solid var(--dark-blue-color);
     border-radius: 4px;
     font-family: Comfortaa;
-    color: var(--secondary-pink-color);
+    color: var(--dark-blue-color);
     background-color: var(--background-color);
 }
 
@@ -256,6 +222,40 @@
 }
 
 .outline-secondary-btn:active 
+{
+    background-color: rgb(243, 243, 243);
+    background-size: 100%;
+    transition: background 0s;
+}
+
+
+.outline-primary-btn
+{
+    min-width: 14.4rem;
+    min-height: 2.2rem;
+    padding: 1.2rem;
+    margin: 0 1rem;
+    border: 1px solid var(--pink-color);
+    border-radius: 4px;
+    font-family: Comfortaa;
+    color: var(--pink-color);
+    background-color: var(--background-color);
+}
+
+.outline-primary-btn
+{
+    background-position: center;
+    transition: background 0.5s;
+}
+
+.outline-primary-btn:hover
+{
+    background: rgb(235, 235, 235)
+                radial-gradient(circle, transparent 1%, 
+                rgb(243, 243, 243) 1%) center/15000%;
+}
+
+.outline-primary-btn:active 
 {
     background-color: rgb(243, 243, 243);
     background-size: 100%;

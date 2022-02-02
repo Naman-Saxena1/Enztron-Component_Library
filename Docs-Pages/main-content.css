@@ -93,13 +93,13 @@ main
 
 #color-1
 {
-    color: var(--background-color);
-    background-color: var(--primary-dark-blue-color);
+    background-color: var(--pink-color);
 }
 
 #color-2
 {
-    background-color: var(--secondary-pink-color);
+    color: var(--background-color);
+    background-color: var(--dark-blue-color);
 }
 
 #color-3
