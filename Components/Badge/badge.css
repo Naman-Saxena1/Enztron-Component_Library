@@ -13,12 +13,15 @@
 
 .icon-count-badge
 {
+    width: fit-content;
+    height: fit-content;
     display: flex;
+    justify-content: center;
     align-items:center;
     position: relative;
 }
 
-.count-badge-5x, .count-badge-4x, .count-badge-3x, .count-badge-2x,
+.count-badge-5x, .count-badge-4x, .count-badge-3x, .count-badge-2x, .count-badge-x,
 .status-badge-5x, .status-badge-4x, .status-badge-3x, .status-badge-2x,
 .status-badge-x
 {
@@ -38,6 +41,7 @@
     top: -15px;
     right: -15px;
     font-size: 1.6rem;
+    box-shadow: 0 0 0 1px var(--background-color);
 }
 
 .count-badge-4x
@@ -48,6 +52,7 @@
     top: -10px;
     right: -8px;
     font-size: 1.6rem;
+    box-shadow: 0 0 0 1px var(--background-color);
 }
 
 .count-badge-3x
@@ -58,6 +63,7 @@
     top: -10px;
     right: -10px;
     font-size: 12px;
+    box-shadow: 0 0 0 1px var(--background-color);
 }
 
 .count-badge-2x
@@ -68,6 +74,18 @@
     top: -10px;
     right: -10px;
     font-size: 10px;
+    box-shadow: 0 0 0 1px var(--background-color);
+}
+
+.count-badge-x
+{
+    background-color:  var(--notification-or-error);
+    width: 1.6rem;
+    height: 1.6rem;
+    top: -13px;
+    right: -13px;
+    font-size: 10px;
+    box-shadow: 0 0 0 1px var(--background-color);
 }
 
 .status-badge-5x

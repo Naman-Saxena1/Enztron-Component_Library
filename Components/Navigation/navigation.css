@@ -29,7 +29,7 @@
     border: 1px solid var(--dark-blue-color);
 }
 
-@media screen and (max-width:1170px){
+@media screen and (max-width:1305px){
     .top-bar
     {
         flex-direction: column;
@@ -60,6 +60,7 @@
     display: flex;
     align-items: center;
     border: 1px solid black;
+    border-radius: 5px;
 }
 
 .search-bar:active
@@ -70,6 +71,7 @@
 .search-bar-input
 {
     height: 100%;
+    width: 30rem;
     padding: 1rem;
     border: 0;
 }
@@ -77,7 +79,7 @@
 #search-bar-btn
 {
     padding: 9.7px;
-    width: 100%;
+    width: fit-content;
     height: 100%;
     margin: 0;
     border-radius: 0px;
