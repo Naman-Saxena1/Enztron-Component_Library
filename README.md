@@ -65,3 +65,5 @@ Live Hosted Link - [Enztron](https://enztron-dev-branch.netlify.app)
 - And you are done! Enztron Component will be available in your project! :sunglasses: 🥳
 
 
+## Demo Video
+[![Demo video]](https://github.com/Naman-Saxena1/Enztron-Component_Library/blob/development/Videos/Enztron%20Demo.mp4)
