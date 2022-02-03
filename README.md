@@ -56,4 +56,9 @@ Live Hosted Link - [Enztron](https://enztron-dev-branch.netlify.app)
 - Modal
 
 
+## How to Use this Component Library
+- Copy Font Awesome CDN, Enztron-components.css and Comfortaa Google Font Family link tags on top of other link tags of your project
+- Copy HTML of the component that you want to use in your project
+- And you are done! Enztron Component will be avaiable in your project! :sunglasses:
+
 
