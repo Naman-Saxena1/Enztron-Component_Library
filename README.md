@@ -71,6 +71,6 @@ In this [demo video](https://github.com/Naman-Saxena1/Enztron-Component_Library/
 
 
 ## Screenshots
-![](https://github.com/Naman-Saxena1/Enztron-Component_Library/blob/development/Icons-and-Images/Screenshots/Screenshot-1.PNG)
-![](https://github.com/Naman-Saxena1/Enztron-Component_Library/blob/development/Icons-and-Images/Screenshots/Screenshot-2.PNG)
-![](https://github.com/Naman-Saxena1/Enztron-Component_Library/blob/development/Icons-and-Images/Screenshots/Screenshot-3.PNG)
+![](https://github.com/Naman-Saxena1/Enztron-Component_Library/blob/development/Icons-and-Images/Screenshots/Screenshot-1.PNG) <br /><br />
+![](https://github.com/Naman-Saxena1/Enztron-Component_Library/blob/development/Icons-and-Images/Screenshots/Screenshot-2.PNG) <br /><br />
+![](https://github.com/Naman-Saxena1/Enztron-Component_Library/blob/development/Icons-and-Images/Screenshots/Screenshot-3.PNG) <br /><br />
