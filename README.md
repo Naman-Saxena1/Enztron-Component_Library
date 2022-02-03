@@ -1,5 +1,5 @@
 # Enztron-Component_Library
-Enztron is an Open Source light CSS library to easily build UI with pre-customized structures.
+Enztron is an Open Source light CSS library to easily build UI with pre-customized structures. \
 Live Hosted Link - [Enztron](https://enztron-dev-branch.netlify.app)
 
 ## Technology Used 
