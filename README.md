@@ -62,6 +62,6 @@ Live Hosted Link - [Enztron](https://enztron-dev-branch.netlify.app)
   - Enztron components.css  -> <br /> ```<link rel="stylesheet" href="https://enztron-dev-branch.netlify.app/components.css">``` <br />
   - Comfortaa Google Font   -> <br /> ```<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>``` <br />
 - Copy HTML of the component that you want to use in your project
-- And you are done! Enztron Component will be available in your project! :sunglasses:
+- And you are done! Enztron Component will be available in your project! :sunglasses: 🥳
 
 
