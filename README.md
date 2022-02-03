@@ -58,9 +58,9 @@ Live Hosted Link - [Enztron](https://enztron-dev-branch.netlify.app)
 
 ## How to Use this Component Library
 - Copy Font Awesome CDN, Enztron-components.css and Comfortaa Google Font Family link tags on top of other link tags of your project 
-  - Font Awesome CDN        -> <br /> ```HTML<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">``` <br />
-  - Enztron components.css  -> <br /> ```HTML<link rel="stylesheet" href="https://enztron-dev-branch.netlify.app/components.css">``` <br />
-  - Comfortaa Google Font   -> <br /> ```HTML<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>``` <br />
+  - Font Awesome CDN        -> <br /> ```<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">``` <br />
+  - Enztron components.css  -> <br /> ```<link rel="stylesheet" href="https://enztron-dev-branch.netlify.app/components.css">``` <br />
+  - Comfortaa Google Font   -> <br /> ```<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>``` <br />
 - Copy HTML of the component that you want to use in your project
 - And you are done! Enztron Component will be available in your project! :sunglasses:
 
