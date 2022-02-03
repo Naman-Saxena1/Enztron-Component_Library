@@ -66,7 +66,7 @@ Live Hosted Link - [Enztron](https://enztron-dev-branch.netlify.app)
 
 
 ## Demo Video
-In this [demo video](https://github.com/Naman-Saxena1/Enztron-Component_Library/blob/development/Videos/Enztron%20Demo.mp4)
+In this [demo video](https://enztron-dev-branch.netlify.app/Videos//Enztron%20Demo.mp4)
 , I have created a new project and showed how to use this component library in it using example of Navigation bar and Card Component.
 
 
