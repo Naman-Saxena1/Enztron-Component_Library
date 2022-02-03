@@ -7,6 +7,11 @@ function openModal()
     modal.style.display="block"
 }
 
+function closeModal()
+{
+    modal.style.display="none"
+}
+
 modalActionBtns.forEach((actionBtnElement)=>{
     actionBtnElement.addEventListener('click',()=>{
         modal.style.display="none"
