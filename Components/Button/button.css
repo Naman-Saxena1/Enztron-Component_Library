@@ -402,12 +402,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    color: white;
+    background-color: var(--pink-color);
+    border: none;
+}
+
+.icon-btn
+{
+    background-position: center;
+    transition: background 0.5s;
 }
 
 .icon-btn:hover
 {
-    background-color: var(--background-color)
+    background: var(--light-pink-ripple-effect)
+                radial-gradient(circle, transparent 1%, 
+                var(--pink-color) 1%) center/15000%;
+}
+
+.icon-btn:active 
+{
+    background-color: var(--pink-color);
+    background-size: 100%;
+    transition: background 0s;
 }
 
 

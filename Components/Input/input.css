@@ -19,10 +19,16 @@
     display: flex;
     flex-direction: column;
     padding: 4rem;
-    gap: 3rem;
+    gap: 1rem;
     border: 1px solid var(--dark-blue-color);
     border-radius: 6px;
     background-color: var(--background-color);
+}
+
+.signup-input-container
+{
+    display: flex;
+    flex-direction: column;
 }
 
 .signup-form-input
@@ -35,6 +41,7 @@
 .form-signup-btn
 {
     border-radius: 4px;
+    margin: 3rem 0;
     padding: 1rem;
     color: var(--background-color);
     background-image: linear-gradient(120deg, #BD5D78 0%, #EF836D 100%);
