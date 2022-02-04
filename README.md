@@ -55,6 +55,10 @@ Live Hosted Link - [Enztron](https://enztron-dev-branch.netlify.app)
 
 - Modal
 
+- Rating
+
+- Toast
+
 
 ## How to Use this Component Library
 - Copy Font Awesome CDN, Enztron-components.css and Comfortaa Google Font Family link tags on top of other link tags of your project 
