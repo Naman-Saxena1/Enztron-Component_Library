@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css" integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ==" crossorigin="anonymous" />
     <link rel="stylesheet" href="../../components.css">
     <link rel="icon" type="image/x-icon" href="../../Icons-and-Images/favicon-icon.png">
@@ -75,13 +76,117 @@
             <div class="content-container">
                 <h1>Rating</h1>
                 <p>
-                    Ratings will come here.
+                    Ratings are used measure user experience of a product.
+                    They are then also used to calculate average rating of a product and then 
+                    sort all products on the basis of average customer rating.
                 </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>Example - Rating of a product on an E-commerce Website</h2>
+                <br>
+                <br>
+                <div class="rating-container">
+
+                    <div class="customer-rating-container">
+                        <div class="user-ratings">
+                            <h3>Rating by User 1</h3>
+                            <div class="rating-bar">
+                                <i value=1 class="fa fa-star fa-2x rating-stars" aria-hidden="true"></i>
+                                <i value=2 class="fa fa-star fa-2x rating-stars" aria-hidden="true"></i>
+                                <i value=3 class="fa fa-star fa-2x rating-stars" aria-hidden="true"></i>
+                                <i value=4 class="fa fa-star fa-2x rating-stars" aria-hidden="true"></i>
+                                <i value=5 class="fa fa-star fa-2x rating-stars" aria-hidden="true"></i>
+                            </div>
+                            <p class="rating-stat">Rating : <span class="rating-value">0</span> </p>
+                            <button class="solid-primary-btn star-reset-btn">Reset</button>
+                        </div>
+
+                        <div class="user-ratings">
+                            <h3>Rating by User 2</h3>
+                            <div class="rating-bar">
+                                <i value=1 class="fa fa-star fa-2x rating-stars" aria-hidden="true"></i>
+                                <i value=2 class="fa fa-star fa-2x rating-stars" aria-hidden="true"></i>
+                                <i value=3 class="fa fa-star fa-2x rating-stars" aria-hidden="true"></i>
+                                <i value=4 class="fa fa-star fa-2x rating-stars" aria-hidden="true"></i>
+                                <i value=5 class="fa fa-star fa-2x rating-stars" aria-hidden="true"></i>
+                            </div>
+                            <p class="rating-stat">Rating : <span class="rating-value">0</span> </p>
+                            <button class="solid-primary-btn star-reset-btn">Reset</button>
+                        </div>
+                    </div>
+
+                    <div class="product-overall-stats">
+                        <h3>Average Product Rating</h3>
+                        <div>
+                            <div class="product-rating-bar">
+                                <i class="fa fa-star fa-2x product-rating-stars" aria-hidden="true"></i>
+                                <i class="fa fa-star fa-2x product-rating-stars" aria-hidden="true"></i>
+                                <i class="fa fa-star fa-2x product-rating-stars" aria-hidden="true"></i>
+                                <i class="fa fa-star fa-2x product-rating-stars" aria-hidden="true"></i>
+                                <i class="fa fa-star fa-2x product-rating-stars" aria-hidden="true"></i>
+                            </div>
+                            <p id="product-stat">Rating : <span>0</span> </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="example-code intro-code">
+                    <pre>
+                        <code class="html">
+&lt;div class="customer-rating-container"&gt;
+    &lt;div class="user-ratings"&gt;
+        &lt;h3&gt;Rating by User 1&lt;/h3&gt;
+        &lt;div class="rating-bar"&gt;
+            &lt;i value=1 class="fa fa-star fa-2x rating-stars" aria-hidden="true"&gt;&lt;/i&gt;
+            &lt;i value=2 class="fa fa-star fa-2x rating-stars" aria-hidden="true"&gt;&lt;/i&gt;
+            &lt;i value=3 class="fa fa-star fa-2x rating-stars" aria-hidden="true"&gt;&lt;/i&gt;
+            &lt;i value=4 class="fa fa-star fa-2x rating-stars" aria-hidden="true"&gt;&lt;/i&gt;
+            &lt;i value=5 class="fa fa-star fa-2x rating-stars" aria-hidden="true"&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;p class="rating-stat"&gt;Rating : &lt;span class="rating-value"&gt;0&lt;/span&gt; &lt;/p&gt;
+        &lt;button class="solid-primary-btn star-reset-btn"&gt;Reset&lt;/button&gt;
+    &lt;/div&gt;
+        
+    &lt;div class="user-ratings"&gt;
+        &lt;h3&gt;Rating by User 2&lt;/h3&gt;
+        &lt;div class="rating-bar"&gt;
+            &lt;i value=1 class="fa fa-star fa-2x rating-stars" aria-hidden="true"&gt;&lt;/i&gt;
+            &lt;i value=2 class="fa fa-star fa-2x rating-stars" aria-hidden="true"&gt;&lt;/i&gt;
+            &lt;i value=3 class="fa fa-star fa-2x rating-stars" aria-hidden="true"&gt;&lt;/i&gt;
+            &lt;i value=4 class="fa fa-star fa-2x rating-stars" aria-hidden="true"&gt;&lt;/i&gt;
+            &lt;i value=5 class="fa fa-star fa-2x rating-stars" aria-hidden="true"&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;p class="rating-stat"&gt;Rating : &lt;span class="rating-value"&gt;0&lt;/span&gt; &lt;/p&gt;
+        &lt;button class="solid-primary-btn star-reset-btn"&gt;Reset&lt;/button&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+        
+&lt;div class="product-overall-stats"&gt;
+    &lt;h3&gt;Average Product Rating&lt;/h3&gt;
+    &lt;div&gt;
+        &lt;div class="product-rating-bar"&gt;
+            &lt;i class="fa fa-star fa-2x product-rating-stars" aria-hidden="true"&gt;&lt;/i&gt;
+            &lt;i class="fa fa-star fa-2x product-rating-stars" aria-hidden="true"&gt;&lt;/i&gt;
+            &lt;i class="fa fa-star fa-2x product-rating-stars" aria-hidden="true"&gt;&lt;/i&gt;
+            &lt;i class="fa fa-star fa-2x product-rating-stars" aria-hidden="true"&gt;&lt;/i&gt;
+            &lt;i class="fa fa-star fa-2x product-rating-stars" aria-hidden="true"&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;p id="product-stat"&gt;Rating : &lt;span&gt;0&lt;/span&gt; &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+
 
             </div>
         </main>
     </div>
 
+    <script src="./rating.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
 </body>
