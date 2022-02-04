@@ -1,0 +1,67 @@
+.rating-container
+{
+    min-width: fit-content;
+    width: 100%;
+    padding: 4.8rem 1.6rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #F5F7F9;
+}
+
+.customer-rating-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    gap: 2rem;
+}
+
+.user-ratings
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    border: 1px solid var(--offline-grey-color);
+    background-color: var(--background-color);
+    border-radius: 5px;
+}
+
+.rating-bar, .product-rating-bar
+{
+    width: fit-content;
+    height: fit-content;
+    gap: 5px;
+}
+
+.rating-stars, .product-rating-stars
+{
+    color: var(--offline-grey-color)
+}
+
+.rating-stat
+{
+    text-align: center;
+}
+
+
+.product-overall-stats
+{
+    padding: 4rem;
+    background-color: var(--background-color);
+    border: 1px solid var(--offline-grey-color);
+    border-radius: 5px;
+}
+
+.product-overall-stats div
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

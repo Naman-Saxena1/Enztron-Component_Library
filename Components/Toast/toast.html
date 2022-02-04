@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css" integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ==" crossorigin="anonymous" />
     <link rel="stylesheet" href="../../components.css">
     <link rel="icon" type="image/x-icon" href="../../Icons-and-Images/favicon-icon.png">
@@ -73,15 +74,45 @@
 
         <main>
             <div class="content-container">
-                <h1>Toast</h1>
+                <h1>Toast / Snackbar</h1>
                 <p>
-                    Toasts will come here.
+                    Toasts / Snackbar are push notifications for the user.
                 </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="toast-container">
+                    <div class="component-snackbar"> 
+                        <button class="solid-secondary-btn show-snackbar-btn">Show Snackbar</button>
+                        <div class="snackbar">
+                            <p>Can't send photo. Retry in 5 seconds.</p>
+                            <button class="outline-secondary-btn">RETRY</button>
+                            <button class="icon-btn close-btn"><i class="fa fa-times" aria-hidden="true"></i></button>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="example-code intro-code">
+                    <pre>
+                        <code class="html">
+&lt;div class="component-snackbar"&gt; 
+    &lt;button class="solid-secondary-btn show-snackbar-btn"&gt;Show Snackbar&lt;/button&gt;
+    &lt;div class="snackbar"&gt;
+        &lt;p&gt;Can't send photo. Retry in 5 seconds.&lt;/p&gt;
+        &lt;button class="outline-secondary-btn"&gt;RETRY&lt;/button&gt;
+        &lt;button class="icon-btn close-btn"&gt;&lt;i class="fa fa-times" aria-hidden="true"&gt;&lt;/i&gt;&lt;/button&gt;
+    &lt;/div&gt; 
+&lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
 
             </div>
         </main>
     </div>
 
+    <script src="./toast.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
 </body>
