@@ -1,9 +1,10 @@
 let x;
-var toast = document.querySelector(".snackbar")
+let toast = document.querySelector(".snackbar")
+let showSnackBarBtn = document.querySelector('.show-snackbar-btn')
 let closeBtn = document.querySelector(".close-btn")
 let snackbarContainer = document.querySelector('.snackbar-container')
 
-function showToast()
+showSnackBarBtn.addEventListener('click', ()=>
 {
     clearTimeout(x);
     toast.style.transform="translateX(-54.9rem)"
@@ -15,9 +16,10 @@ function showToast()
         },
         5000
     )
-}
-function closeToast()
+})
+
+closeBtn.addEventListener('click', ()=>
 {
     toast.style.transform="translateX(400px)"
     clearTimeout(x);
-}
+})
