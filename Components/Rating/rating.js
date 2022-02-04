@@ -1,21 +1,15 @@
-let ratingStars = document.querySelectorAll(".rating-stars");
-let resetStarsBtn = document.querySelectorAll(".star-reset-btn");
-let allRatings = document.querySelectorAll('.rating-value');
-let productRatingStars = document.querySelectorAll('.product-rating-stars')
-let productRatingStats = document.querySelector("#product-stat");
+const ratingStars = document.querySelectorAll(".rating-stars");
+const resetStarsBtn = document.querySelectorAll(".star-reset-btn");
+const allRatings = document.querySelectorAll('.rating-value');
+const productRatingStars = document.querySelectorAll('.product-rating-stars')
+const productRatingStats = document.querySelector("#product-stat");
 
 
 function productAverageRating(averageRating)
 {
-    // Ex - averageRating=3.5 
-    // 3    -   3.1, 3.2, 3.3, 3.4    
-    // 3.5  -   3.5, 3.6, 3.7, 3.8, 3.9 
-    // 4    -   4.0
-        
-    //1, 2, 3, 4, 5 
-    for(k=0;k<5;k++)   //0, 1, 2, 3, 4
+    for(k=0;k<5;k++)
     {
-        if(k+1<averageRating)   //1<3.5
+        if(k+1<averageRating) 
         {
             productRatingStars[k].removeAttribute("class")
             productRatingStars[k].setAttribute("class", "fa fa-star fa-2x  rating-stars")
@@ -31,10 +25,8 @@ function productAverageRating(averageRating)
             }
             else
             {
-                // k>averageRating
                 if((k+1-averageRating)<=0.5)        
                 {
-                    //4>3.5
                     productRatingStars[k].removeAttribute("class")
                     productRatingStars[k].setAttribute("class", "fa fa-star-half-o fa-2x  rating-stars")
                     productRatingStars[k].style.color = "var(--extra-orange-color)"

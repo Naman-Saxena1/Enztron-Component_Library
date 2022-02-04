@@ -39,12 +39,12 @@
 
 .top-bar button i
 {
-    color: var(--dark-blue-color);
+    color: var(--background-color);
 }
 
 .top-bar button:hover
 {
-    background-color: var(--extra-orange-color);
+    background-color: var(--light-pink-ripple-effect);
 }
 
 .left-topbar-container
