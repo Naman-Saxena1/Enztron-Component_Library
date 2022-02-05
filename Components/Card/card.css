@@ -24,14 +24,22 @@
     overflow: hidden;
     margin: 1rem;
     background-color: white;
+    box-shadow: 0 0 1px rgb(48 48 48 / 54%);
 }
-
-
 
 .card-basic:hover ,.card-basic-horizontal:hover
 {
-    box-shadow: 0 0 5px 3px var(--offline-grey-color);
+    box-shadow: 0 0 25px 6px var(--offline-grey-color);
+    transition: .5s ease-in-out;
 }
+
+
+.card-basic:not(:hover),.card-basic-horizontal:not(:hover)
+{
+    transition: .5s ease-in-out;
+}
+
+
 
 .card-basic img ,.card-basic-horizontal img
 {
@@ -178,6 +186,7 @@
     overflow: hidden;
     margin: 1rem;
     background-color: white;
+    box-shadow: 0 0 1px rgb(48 48 48 / 54%);
 }
 
 .card-basic-horizontal .card-item-details
