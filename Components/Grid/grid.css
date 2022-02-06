@@ -1,0 +1,206 @@
+.grid-container
+{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: var(--component-example-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1.6rem;
+    gap: 1.6rem;
+}
+
+.grid-1
+{
+    width: 100%;
+    min-height: 20rem;
+    display: grid;
+    color: var(--background-color);
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    font-size: 4rem;
+}
+
+.box-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--pink-color);
+}
+
+.box-2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-blue-color);
+}
+
+.box-3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--complimentary-blue-color);
+}
+
+.box-4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--extra-orange-color);
+}
+
+.grid-2
+{
+    width: 100%;
+    min-height: 20rem;
+    display: grid;
+    color: var(--background-color);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    font-size: 4rem;
+}
+
+.grid-3
+{
+    width: 100%;
+    min-height: 20rem;
+    display: grid;
+    color: var(--background-color);
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 2rem;
+    font-size: 4rem;
+}
+
+.grid-4
+{
+    width: 100%;
+    min-height: 50rem;
+    display: grid;
+    color: var(--background-color);
+    grid-gap: 2rem;
+    grid-template-areas: 
+    "box1 box1 box1 box2 box2"
+    "box3 box4 box4 box2 box2"
+    "box3 box4 box4 box5 box5"
+    "box3 box4 box4 box5 box5"
+    ;
+    font-size: 4rem;
+}
+
+.grid4-box-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: box1;
+    background-color: var(--pink-color);
+}
+
+.grid4-box-2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: box2;
+    background-color: var(--dark-blue-color);
+}
+
+.grid4-box-3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: box3;
+    background-color: var(--complimentary-blue-color);
+}
+
+.grid4-box-4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: box4;
+    background-color: var(--extra-orange-color);
+}
+
+.grid4-box-5
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: box5;
+    background-color: var(--teal);
+}
+
+.grid-5
+{
+    width: 100%;
+    min-height: 20rem;
+    display: grid;
+    color: var(--background-color);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4,9rem);
+    grid-gap: 2rem;
+    font-size: 2rem;
+}
+
+.grid-5 .header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/5;
+    background-color: var(--pink-color);
+}
+
+.grid-5 .left-sidebar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 2/4;
+    background-color: var(--dark-blue-color);
+}
+
+.grid-5 .main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2/4;
+    grid-row: 2/4;
+    overflow-y: scroll;
+    padding: 4rem;
+    background-color: var(--complimentary-blue-color);
+}
+
+.grid-5 .main:after {
+    content: "";
+    height: 50px;
+    display: block;
+}
+
+.grid-5 .right-sidebar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 4/5;
+    grid-row: 2/4;
+    background-color: var(--extra-orange-color);
+}
+
+.grid-5 .footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/5;
+    background-color: var(--teal);
+}
