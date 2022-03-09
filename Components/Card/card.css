@@ -14,15 +14,15 @@
 .card-basic
 {
     position: relative;
-    width: 28rem;
-    height: 48rem;
+    width: 24rem;
+    height: 38rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 0.8rem;
-    padding: 2rem 1rem;
     overflow: hidden;
-    margin: 1rem;
+    text-overflow: ellipsis;
+    margin: 0;
+    padding-top: 2rem;
     background-color: white;
     box-shadow: 0 0 1px rgb(48 48 48 / 54%);
 }
@@ -31,6 +31,7 @@
 {
     box-shadow: 0 0 25px 6px var(--offline-grey-color);
     transition: .5s ease-in-out;
+    cursor: pointer;
 }
 
 
@@ -41,23 +42,40 @@
 
 
 
-.card-basic img ,.card-basic-horizontal img
+.card-basic img
 {
-    width: 18rem;
-    min-height: 26rem;
+    width: 100%;
+    height: 20rem;
+    margin: 0 auto;
+    object-fit: scale-down;
 }
 
 .card-item-details
 {
-    width: 18rem;
-    height: max-content;
-    margin-top: 0.5rem;
-    padding: 0.3rem 0.5rem;
+    width: 100%;
+    padding: 0 2.6rem;
 }
 
-.card-basic div h4,h5,h6
+.card-basic div h5
 {
-    margin: 0.6rem;
+    margin: 1.8rem 0;
+}
+
+.card-basic .item-title
+{
+    margin-top: 2rem;
+    height: 3.68rem;
+}
+
+.item-title h4
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-author
+{
+    font-style: italic;
 }
 
 .card-basic div p 
@@ -127,33 +145,37 @@
     transition: background 0s;
 }
 
+.add-to-wishlist-btn
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    border-radius: 50%;
+    margin: 0.8rem 1.1rem 0 0;
+}
+
 .badge-on-card
 {
     position: absolute;
     top:0;
     left: 0;
-    min-width: 2rem;
+    width: fit-content;
     min-height: 2rem;
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     display: flex;
     align-items: center;
     background-color: var(--notification-or-error);
     color: var(--background-color)
 }
 
-.card-dismiss-btn
-{
-    position: absolute;
-    top: 0;
-    right: 3px;
-}
-
 .card-text-overlay-container
 {
     position: absolute;
     top:0;
+    left:0;
     width: 100%; /* Full width */
-    height: 100%; /* Full height */
+    height: 22rem; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     display: flex;
     justify-content: center;
@@ -167,11 +189,13 @@
 
 .card-text-overlay-container div
 {
-    font-size: 4rem;
+    font-size: 2.4rem;
 }
 
 .text-only-card
 {
+    padding-top: 0;
+    padding-bottom: 1rem;
     height: fit-content;
 }
 
@@ -179,22 +203,35 @@
 {
     position: relative;
     height: 32rem;
+    width: 50rem;
     display: flex;
     align-items: center;
     border-radius: 0.8rem;
-    padding: 2rem 1rem;
+    padding: 2rem;
     overflow: hidden;
     margin: 1rem;
     background-color: white;
     box-shadow: 0 0 1px rgb(48 48 48 / 54%);
 }
 
+.card-basic-horizontal img
+{
+    height: 90%;
+}
+
 .card-basic-horizontal .card-item-details
 {
-    width: 18rem;
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    gap: 6px;
     height: max-content;
-    margin-top: 0.5rem;
-    padding: 0.3rem 1rem;
+    padding: 0 0 0 2rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
 
 .card-basic-horizontal div h4,h5,h6
@@ -206,4 +243,52 @@
 {
     margin: 0;
     display: inline;
+}
+
+.cart-item-quantity-input
+{
+    outline: none;
+    width: 5rem;
+    margin: 0 1rem;
+    text-align: center;
+}
+
+.cart-horizontal-card-btns
+{
+    flex-direction: column;
+    gap:1rem;
+    margin-top: 1rem;
+}
+
+.cart-horizontal-card-btns button
+{
+    margin: 0;
+}
+
+.item-cart-quantity
+{
+    display: flex;
+}
+
+.cart-quantity-change-btn
+{
+    border-radius: 50%;
+    border: 1px solid var(--offline-grey-color);
+}
+
+.cart-quantity-change-btn span
+{
+    vertical-align: middle;
+}
+
+.card-dismiss-btn
+{
+    width: 3.5rem;
+    height: 3.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    margin: 0.8rem 1.1rem 0 0;
+    border: none;
 }

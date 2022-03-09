@@ -26,7 +26,6 @@
     align-items: center;
     padding: 2rem;
     flex-wrap: nowrap;
-    border: 1px solid var(--dark-blue-color);
 }
 
 @media screen and (max-width:1305px){
@@ -59,8 +58,7 @@
 {
     display: flex;
     align-items: center;
-    border: 1px solid black;
-    border-radius: 5px;
+    border: none;
 }
 
 .search-bar:active
@@ -73,7 +71,9 @@
     height: 100%;
     width: 30rem;
     padding: 1rem;
-    border: 0;
+    border: none;
+    outline: none;
+    font-family: Comfortaa;
 }
 
 #search-bar-btn
@@ -82,14 +82,8 @@
     width: fit-content;
     height: 100%;
     margin: 0;
-    border-radius: 0px;
-    border-width: 1px;
+    border: none;
     background-color: var(--awaystatus-or-warning);
-}
-
-#search-bar-btn:active
-{
-    border-width: 1.5px;
 }
 
 .content

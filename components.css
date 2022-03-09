@@ -1,3 +1,5 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+
 @import url('/Components/Logo/logo.css');
 @import url('/Docs-Pages/introduction.css');
 @import url('/Docs-Pages/main-content.css');
@@ -32,6 +34,7 @@
     --notification-or-error   :#F44336;
     --onlinestatus-or-success :#4CAF50;
     --awaystatus-or-warning   :#FF9800;
+    --dark-grey               :#282c34;
     --light-grey              :rgb(243, 243, 243);
     --grey                    :rgb(228, 228, 228);
     --light-yellow            :rgb(224, 224, 212);
@@ -72,7 +75,18 @@ nav
 
 .github-link
 {
-    padding: 0 6rem;
+    display: flex;
+    
+}
+
+.github-btn
+{
+    margin-right: 4rem;
+}
+
+.github-btn span
+{
+    font-size: 1.2rem;
 }
 
 h1
@@ -87,7 +101,23 @@ h2
 
 h3
 {
-    font-size: 1.87rem;
+    font-size: 1.8rem;
+}
+
+h4
+{
+    font-size: 1.6rem;
+    margin: 1.2rem 0;
+}
+
+h5
+{
+    font-size: 1.2rem;
+}
+
+h6
+{
+    font-size: 1rem;
 }
 
 p, center
@@ -146,6 +176,12 @@ a
     flex-wrap: wrap;
 }
 
+.introduction h1
+{
+    text-align: left;
+    width: 100%;
+}
+
 .introduction button
 {
     min-width: 273px;
@@ -154,6 +190,7 @@ a
     padding: 1.6rem;
     margin: 1.6rem;
     border-radius: 55px;
+    border: none;
     color: var(--dark-blue-color);
     background-color: var(--background-color);
     cursor: pointer;
@@ -184,7 +221,7 @@ a
 /* For all scrollbars */
 *::-webkit-scrollbar 
 {
-    /* width: 1.5em; */
+    width: 1.2em;
     height: 1em;
 }
   
