@@ -11,6 +11,30 @@
     padding: 4.8rem 1.6rem;
 }
 
+.solid-primary-btn:disabled, .solid-secondary-btn:disabled, .solid-error-btn:disabled, .solid-success-btn:disabled, .solid-warning-btn:disabled
+{
+    min-width: 14.4rem;
+    min-height: 2.2rem;
+    padding: 1.2rem;
+    margin: 0 1rem;
+    border: none;
+    border-radius: 4px;
+    font-family: Comfortaa;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--background-color);
+    background-color: var(--offline-grey-color);
+    transition: ease .3s;
+}
+
+.solid-primary-btn:disabled:hover, .solid-secondary-btn:disabled:hover, .solid-error-btn:disabled:hover, .solid-success-btn:disabled:hover, .solid-warning-btn:disabled:hover
+{
+    background-color: var(--offline-grey-color);
+    transition: ease .3s;
+}
+
+
 .solid-grey-btn
 {
     min-width: 14.4rem;

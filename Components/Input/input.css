@@ -25,6 +25,11 @@
     background-color: var(--background-color);
 }
 
+.user-auth-form input
+{
+    font-family: Comfortaa;
+}
+
 .user-auth-input-container
 {
     display: flex;
@@ -39,11 +44,18 @@
     padding: 1rem;
 }
 
-.form-user-auth-btn
+.form-user-auth-submit-btn
 {
     border: none;
     margin: 3rem 0;
     padding: 1rem;
     color: var(--background-color);
     background-color: var(--onlinestatus-or-success);
+}
+
+.form-user-auth-submit-btn:disabled
+{
+    border: none;
+    margin: 3rem 0;
+    padding: 1rem;
 }
