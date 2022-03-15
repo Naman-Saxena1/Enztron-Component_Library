@@ -176,7 +176,7 @@
 
 .solid-success-btn:hover 
 {
-    background: #59d15d
+    background: #66e3c4
                 radial-gradient(circle, transparent 1%, 
                                     var(--onlinestatus-or-success) 1%) center/15000%;
 }
