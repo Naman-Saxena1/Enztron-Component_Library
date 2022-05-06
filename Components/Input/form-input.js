@@ -1,6 +1,6 @@
-const formSubmitBtn = document.querySelector(".form-signup-btn");
-const formInputEmail = document.querySelector("#signup-input-email")
-const formInputFields = document.querySelectorAll(".signup-form-input");
+const formSubmitBtn = document.querySelector(".form-user-auth-btn");
+const formInputEmail = document.querySelector("#user-auth-input-email")
+const formInputFields = document.querySelectorAll(".user-auth-form-input");
 
 
 formSubmitBtn.addEventListener('click',()=>{

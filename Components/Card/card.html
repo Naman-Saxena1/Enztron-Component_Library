@@ -38,7 +38,12 @@
             </div>
         </div>
 
-        <a href="https://github.com/Naman-Saxena1/Enztron-Component_Library" class="github-link">GitHub</a>
+        <a target="_blank" href="https://github.com/Naman-Saxena1/Enztron-Component_Library" class="github-link">
+        <button class="solid-grey-btn link-btn github-btn">
+            <i class="fa fa-github fa-x" aria-hidden="true" ></i>
+                <span>Github</span>
+            </button>
+        </a>
     </nav>
     <hr>
 
@@ -97,17 +102,15 @@
                     <div class="card-basic">
                         <img src="../../Icons-and-Images/Book-Covers/Book_Cover-Thus_Spoke_Zarathustra.jpg" alt="Book-Thus_Spoke_Zarathustra">
                         <div class="card-item-details">
-                            <h3>Thus Spoke Zarathustra</h3>
-                            <h4>- By Friedrich Nietzche</h4>
-                            <p><b>&#8377; 300 &nbsp;&nbsp;</b><del>&#8377; 400</del> &nbsp;&nbsp;
-                                <p class="discount-on-card">25% off</p>
+                            <div class="item-title">
+                                <h4>Thus Spoke Zarathustra</h4>
+                            </div>
+                            <h5 class="item-author">- By &nbsp;Friedrich Nietzche</h5>
+                            <p><b>Rs. 300 &nbsp;&nbsp;</b><del>Rs. 400</del> &nbsp;&nbsp;
+                                <p class="discount-on-card">(25% off)</p>
                             </p>
                             <div class="card-button">
-                                <button class="outline-card-secondary-btn">
-                                    <i class="fa fa-shopping-cart fa-x" aria-hidden="true" ></i>
-                                    &nbsp;Add To Cart
-                                </button>
-                                <button class="card-icon-btn outline-card-secondary-btn"><i class="fa fa-heart-o fa-x" aria-hidden="true"></i></button>
+                                <button class="card-icon-btn add-to-wishlist-btn outline-card-secondary-btn"><i class="fa fa-heart-o fa-x" aria-hidden="true"></i></button>
                             </div>
                             <div class="badge-on-card">
                                 Best Seller
@@ -118,17 +121,13 @@
                     <div class="card-basic">
                         <img src="../../Icons-and-Images/Book-Covers/Book_Cover-Top_5_Regrets_Of_The_Dying.jpg" alt="Book-Top_5_Regrets_Of_The_Dying">
                         <div class="card-item-details">
-                            <h3>Top 5 Regrets Of The Dying</h3>
-                            <h4>- By Bronnie Ware</h4>
-                            <p><b>&#8377; 225 &nbsp;&nbsp;</b><del>&#8377; 300</del> &nbsp;&nbsp;
-                                <p class="discount-on-card">25% off</p>
+                            <h4 class="item-title">Top 5 Regrets Of The Dying</h4>
+                            <h5 class="item-author">- By &nbsp;Bronnie Ware</h5>
+                            <p><b>Rs. 225 &nbsp;&nbsp;</b><del>Rs. 300</del> &nbsp;&nbsp;
+                                <p class="discount-on-card">(25% off)</p>
                             </p>
                             <div class="card-button">
-                                <button class="outline-card-secondary-btn">
-                                    <i class="fa fa-shopping-cart fa-x" aria-hidden="true" ></i>
-                                    &nbsp;Add To Cart
-                                </button>
-                                <button class="card-icon-btn outline-card-secondary-btn"><i class="fa fa-heart-o fa-x" aria-hidden="true"></i></button>
+                                <button class="card-icon-btn add-to-wishlist-btn outline-card-secondary-btn"><i class="fa fa-heart-o fa-x" aria-hidden="true"></i></button>
                             </div>
                             <div class="badge-on-card">
                                 Trending
@@ -145,19 +144,17 @@
                     <pre>
                         <code class="html">
 &lt;div class="card-basic"&gt;
-    &lt;img src="..." alt="..."&gt;
+    &lt;img src="../../Icons-and-Images/Book-Covers/Book_Cover-Thus_Spoke_Zarathustra.jpg" alt="Book-Thus_Spoke_Zarathustra"&gt;
     &lt;div class="card-item-details"&gt;
-        &lt;h3&gt;Thus Spoke Zarathustra&lt;/h3&gt;
-        &lt;h4&gt;- By Friedrich Nietzche&lt;/h4&gt;
-        &lt;p&gt;&lt;b&gt;&#8377; 300 &nbsp;&nbsp;&lt;/b&gt;&lt;del&gt;&#8377; 400&lt;/del&gt; &nbsp;&nbsp;
-            &lt;p class="discount-on-card"&gt;25% off&lt;/p&gt;
+        &lt;div class="item-title"&gt;
+            &lt;h4&gt;Thus Spoke Zarathustra&lt;/h4&gt;
+        &lt;/div&gt;
+        &lt;h5 class="item-author"&gt;- By &nbsp;Friedrich Nietzche&lt;/h5&gt;
+        &lt;p&gt;&lt;b&gt;Rs. 300 &nbsp;&nbsp;&lt;/b&gt;&lt;del&gt;Rs. 400&lt;/del&gt; &nbsp;&nbsp;
+            &lt;p class="discount-on-card"&gt;(25% off)&lt;/p&gt;
         &lt;/p&gt;
         &lt;div class="card-button"&gt;
-            &lt;button class="outline-card-secondary-btn"&gt;
-                &lt;i class="fa fa-shopping-cart fa-x" aria-hidden="true" &gt;&lt;/i&gt;
-                &nbsp;Add To Cart
-            &lt;/button&gt;
-            &lt;button class="card-icon-btn outline-card-secondary-btn"&gt;&lt;i class="fa fa-heart-o fa-x" aria-hidden="true"&gt;&lt;/i&gt;&lt;/button&gt;
+            &lt;button class="card-icon-btn add-to-wishlist-btn outline-card-secondary-btn"&gt;&lt;i class="fa fa-heart-o fa-x" aria-hidden="true"&gt;&lt;/i&gt;&lt;/button&gt;
         &lt;/div&gt;
         &lt;div class="badge-on-card"&gt;
             Best Seller
@@ -172,26 +169,23 @@
                 <br>
                 <h2>Card with dismiss</h2>
                 <div class="card-container">
-                    
+
                     <div class="card-basic">
                         <img src="../../Icons-and-Images/Book-Covers/Book_Cover-Man's_Search_For_Meaning.jpg" alt="Book-Man's Search For Meaning">
                         <div class="card-item-details">
-                            <h3>Man's Search For Meaning</h3>
-                            <h4>- By Victor E. Frankl</h4>
-                            <p><b>&#8377; 300 &nbsp;&nbsp;</b><del>&#8377; 400</del> &nbsp;&nbsp;
-                                <p class="discount-on-card">25% off</p>
+                            <div class="item-title">
+                                <h4>Man's Search For Meaning</h4>
+                            </div>
+                            <h5 class="item-author">- By &nbsp;Victor E. Frankl</h5>
+                            <p><b>Rs. 300 &nbsp;&nbsp;</b><del>Rs. 400</del> &nbsp;&nbsp;
+                                <p class="discount-on-card">(25% off)</p>
                             </p>
                             <div class="card-button">
-                                <button class="outline-card-secondary-btn">
-                                    <i class="fa fa-shopping-cart fa-x" aria-hidden="true" ></i>
-                                    &nbsp;Add To Cart
-                                </button>
-                                <button class="card-icon-btn outline-card-secondary-btn"><i class="fa fa-heart-o fa-x" aria-hidden="true"></i></button>
+                                <button class="card-icon-btn card-dismiss-btn outline-card-secondary-btn"><i class="fa fa-times" aria-hidden="true"></i></button>
                             </div>
                             <div class="badge-on-card">
                                 Popular
                             </div>
-                            <button class="card-dismiss-btn outline-card-secondary-btn">X</button>
                         </div>
                     </div>
                     
@@ -203,24 +197,21 @@
                     <pre>
                         <code class="html">
 &lt;div class="card-basic"&gt;
-    &lt;img src="..." alt="..."&gt;
+    &lt;img src="../../Icons-and-Images/Book-Covers/Book_Cover-Man's_Search_For_Meaning.jpg" alt="Book-Man's Search For Meaning"&gt;
     &lt;div class="card-item-details"&gt;
-        &lt;h3&gt;Man's Search For Meaning&lt;/h3&gt;
-        &lt;h4&gt;- By Victor E. Frankl&lt;/h4&gt;
-        &lt;p&gt;&lt;b&gt;&#8377; 300 &nbsp;&nbsp;&lt;/b&gt;&lt;del&gt;&#8377; 400&lt;/del&gt; &nbsp;&nbsp;
-            &lt;p class="discount-on-card"&gt;25% off&lt;/p&gt;
+        &lt;div class="item-title"&gt;
+            &lt;h4&gt;Man's Search For Meaning&lt;/h4&gt;
+        &lt;/div&gt;
+        &lt;h5 class="item-author"&gt;- By &nbsp;Victor E. Frankl&lt;/h5&gt;
+        &lt;p&gt;&lt;b&gt;Rs. 300 &nbsp;&nbsp;&lt;/b&gt;&lt;del&gt;Rs. 400&lt;/del&gt; &nbsp;&nbsp;
+            &lt;p class="discount-on-card"&gt;(25% off)&lt;/p&gt;
         &lt;/p&gt;
         &lt;div class="card-button"&gt;
-            &lt;button class="outline-card-secondary-btn"&gt;
-                &lt;i class="fa fa-shopping-cart fa-x" aria-hidden="true" &gt;&lt;/i&gt;
-                &nbsp;Add To Cart
-            &lt;/button&gt;
-            &lt;button class="card-icon-btn outline-card-secondary-btn"&gt;&lt;i class="fa fa-heart-o fa-x" aria-hidden="true"&gt;&lt;/i&gt;&lt;/button&gt;
+            &lt;button class="card-icon-btn card-dismiss-btn outline-card-secondary-btn"&gt;&lt;i class="fa fa-times" aria-hidden="true"&gt;&lt;/i&gt;&lt;/button&gt;
         &lt;/div&gt;
         &lt;div class="badge-on-card"&gt;
             Popular
         &lt;/div&gt;
-        &lt;button class="card-dismiss-btn outline-card-secondary-btn"&gt;X&lt;/button&gt;
     &lt;/div&gt;
 &lt;/div&gt;
                         </code>
@@ -231,29 +222,26 @@
                 <br>
                 <h2>Card with text overlay</h2>
                 <div class="card-container">
-                    
+
                     <div class="card-basic">
                         <img src="../../Icons-and-Images/Book-Covers/Book_Cover-The_Secret.jpg" alt="Book-The_Secret">
                         <div class="card-item-details">
-                            <h3>The Secret</h3>
-                            <h4>- By Rhonda Byrne</h4>
-                            <p><b>&#8377; 300 &nbsp;&nbsp;</b><del>&#8377; 400</del> &nbsp;&nbsp;
-                                <p class="discount-on-card">25% off</p>
+                            <div class="item-title">
+                                <h4>The Secret</h4>
+                            </div>
+                            <h5 class="item-author">- By &nbsp;Rhonda Byrne</h5>
+                            <p><b>Rs. 225 &nbsp;&nbsp;</b><del>Rs. 300</del> &nbsp;&nbsp;
+                                <p class="discount-on-card">(25% off)</p>
                             </p>
                             <div class="card-button">
-                                <button class="outline-card-secondary-btn">
-                                    <i class="fa fa-shopping-cart fa-x" aria-hidden="true" ></i>
-                                    &nbsp;Add To Cart
-                                </button>
-                                <button class="card-icon-btn outline-card-secondary-btn"><i class="fa fa-heart-o fa-x" aria-hidden="true"></i></button>
+                                <button class="card-icon-btn add-to-wishlist-btn outline-card-secondary-btn"><i class="fa fa-heart-o fa-x" aria-hidden="true"></i></button>
                             </div>
                             <div class="badge-on-card">
                                 Popular
                             </div>
-                            <button class="card-dismiss-btn outline-card-secondary-btn">X</button>
-                        </div>
-                        <div class="card-text-overlay-container">
-                            <div>Out of Stock</div>
+                            <div class="card-text-overlay-container">
+                                <p>Out of Stock</p>
+                            </div>
                         </div>
                     </div>
                     
@@ -265,27 +253,24 @@
                     <pre>
                         <code class="html">
 &lt;div class="card-basic"&gt;
-    &lt;img src="..." alt="..."&gt;
+    &lt;img src="../../Icons-and-Images/Book-Covers/Book_Cover-The_Secret.jpg" alt="Book-The_Secret"&gt;
     &lt;div class="card-item-details"&gt;
-        &lt;h3&gt;The Secret&lt;/h3&gt;
-        &lt;h4&gt;- By Rhonda Byrne&lt;/h4&gt;
-        &lt;p&gt;&lt;b&gt;&#8377; 300 &nbsp;&nbsp;&lt;/b&gt;&lt;del&gt;&#8377; 400&lt;/del&gt; &nbsp;&nbsp;
-            &lt;p class="discount-on-card"&gt;25% off&lt;/p&gt;
+        &lt;div class="item-title"&gt;
+            &lt;h4&gt;The Secret&lt;/h4&gt;
+        &lt;/div&gt;
+        &lt;h5 class="item-author"&gt;- By &nbsp;Rhonda Byrne&lt;/h5&gt;
+        &lt;p&gt;&lt;b&gt;Rs. 225 &nbsp;&nbsp;&lt;/b&gt;&lt;del&gt;Rs. 300&lt;/del&gt; &nbsp;&nbsp;
+            &lt;p class="discount-on-card"&gt;(25% off)&lt;/p&gt;
         &lt;/p&gt;
         &lt;div class="card-button"&gt;
-            &lt;button class="outline-card-secondary-btn"&gt;
-                &lt;i class="fa fa-shopping-cart fa-x" aria-hidden="true" &gt;&lt;/i&gt;
-                &nbsp;Add To Cart
-            &lt;/button&gt;
-            &lt;button class="card-icon-btn outline-card-secondary-btn"&gt;&lt;i class="fa fa-heart-o fa-x" aria-hidden="true"&gt;&lt;/i&gt;&lt;/button&gt;
+            &lt;button class="card-icon-btn add-to-wishlist-btn outline-card-secondary-btn"&gt;&lt;i class="fa fa-heart-o fa-x" aria-hidden="true"&gt;&lt;/i&gt;&lt;/button&gt;
         &lt;/div&gt;
         &lt;div class="badge-on-card"&gt;
             Popular
         &lt;/div&gt;
-        &lt;button class="card-dismiss-btn outline-card-secondary-btn"&gt;X&lt;/button&gt;
-    &lt;/div&gt;
-    &lt;div class="card-text-overlay-container"&gt;
-        &lt;div&gt;Out of Stock&lt;/div&gt;
+        &lt;div class="card-text-overlay-container"&gt;
+            &lt;div&gt;Out of Stock&lt;/div&gt;
+        &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
                         </code>
@@ -337,48 +322,52 @@
                 <br>
                 <h2>Vertical/Horizontal cards</h2>
                 <div class="card-container">
-                    
+
                     <div class="card-basic">
                         <img src="../../Icons-and-Images/Book-Covers/Book_Cover-The_Stranger.jpg" alt="Book-The Stranger">
                         <div class="card-item-details">
-                            <h3>The Stranger</h3>
-                            <h4>- By Albert Camus</h4>
-                            <p><b>&#8377; 300 &nbsp;&nbsp;</b><del>&#8377; 400</del> &nbsp;&nbsp;
-                                <p class="discount-on-card">25% off</p>
+                            <div class="item-title">
+                                <h4>The Stranger</h4>
+                            </div>
+                            <h5 class="item-author">- By &nbsp;Albert Camus</h5>
+                            <p><b>Rs. 300 &nbsp;&nbsp;</b><del>Rs. 400</del> &nbsp;&nbsp;
+                                <p class="discount-on-card">(25% off)</p>
                             </p>
                             <div class="card-button">
-                                <button class="outline-card-secondary-btn">
-                                    <i class="fa fa-shopping-cart fa-x" aria-hidden="true" ></i>
-                                    &nbsp;Add To Cart
-                                </button>
-                                <button class="card-icon-btn outline-card-secondary-btn"><i class="fa fa-heart-o fa-x" aria-hidden="true"></i></button>
+                                <button class="card-icon-btn add-to-wishlist-btn outline-card-secondary-btn"><i class="fa fa-heart-o fa-x" aria-hidden="true"></i></button>
                             </div>
                             <div class="badge-on-card">
                                 Best Reviews
                             </div>
-                            <button class="card-dismiss-btn outline-card-secondary-btn">X</button>
                         </div>
                     </div>
-                    
+
                     <div class="card-basic-horizontal">
-                        <img src="../../Icons-and-Images/Book-Covers/Book_Cover-The_Murder_Of_Roger_Ackroyd.jpg" alt="Book-The Murder Of Roger Ackroyd">
-                        <div class="card-item-details">
-                            <h3>The Murder Of Roger Ackroyd</h3>
-                            <h4>- By Agatha Christie</h4>
-                            <p><b>&#8377; 300 &nbsp;&nbsp;</b><del>&#8377; 400</del> &nbsp;&nbsp;
-                                <p class="discount-on-card">25% off</p>
+                        <img class="cart-item-book-img" src="../../Icons-and-Images/Book-Covers/Book_Cover-The_Murder_Of_Roger_Ackroyd.jpg" alt="Book-The Murder Of Roger Ackroyd">
+                        <div id="cart-item-detail" class="card-item-details">
+                            <div class="item-title">
+                                <h4>The Murder Of Roger Ackroyd</h4>
+                            </div>
+                            <h5 class="item-author">- By &nbsp;Agatha Christie</h5>
+                            <p>
+                                <b>&#8377; 300 &nbsp;&nbsp;</b><del>&#8377; 400</del> &nbsp;&nbsp;
+                                <span class="discount-on-card">25% off</span>
                             </p>
-                            <div class="card-button">
-                                <button class="outline-card-secondary-btn">
-                                    <i class="fa fa-shopping-cart fa-x" aria-hidden="true" ></i>
-                                    &nbsp;Add To Cart
-                                </button>
-                                <button class="card-icon-btn outline-card-secondary-btn"><i class="fa fa-heart-o fa-x" aria-hidden="true"></i></button>
+    
+                            <div class="item-cart-quantity">
+                                <h5 class="cart-quantity-para">Quantity : &nbsp;&nbsp;</h5>
+                                <div>
+                                    <input class="cart-item-quantity-input" type="text" maxlength="3" autocomplete="off" value="1">
+                                </div>
+                            </div>
+    
+                            <div class="cart-horizontal-card-btns card-button">
+                                <button class="solid-primary-btn">Remove from Cart</button>
+                                <button class="outline-primary-btn">Move to Wishlist</button>
                             </div>
                             <div class="badge-on-card">
                                 Best Suspense
                             </div>
-                            <button class="card-dismiss-btn outline-card-secondary-btn">X</button>
                         </div>
                     </div>
 
@@ -393,24 +382,31 @@
                     <pre>
                         <code class="html">
 &lt;div class="card-basic-horizontal"&gt;
-    &lt;img src="../../Icons-and-Images/Book-Covers/Book_Cover-The_Murder_Of_Roger_Ackroyd.jpg" alt="Book-The Murder Of Roger Ackroyd"&gt;
-    &lt;div class="card-item-details"&gt;
-        &lt;h3&gt;The Murder Of Roger Ackroyd&lt;/h3&gt;
-        &lt;h4&gt;- By Agatha Christie&lt;/h4&gt;
-        &lt;p&gt;&lt;b&gt;&#8377; 300 &nbsp;&nbsp;&lt;/b&gt;&lt;del&gt;&#8377; 400&lt;/del&gt; &nbsp;&nbsp;
-            &lt;p class="discount-on-card"&gt;25% off&lt;/p&gt;
+    &lt;img class="cart-item-book-img" src="../../Icons-and-Images/Book-Covers/Book_Cover-The_Murder_Of_Roger_Ackroyd.jpg" alt="Book-The Murder Of Roger Ackroyd"&gt;
+    &lt;div id="cart-item-detail" class="card-item-details"&gt;
+        &lt;div class="item-title"&gt;
+            &lt;h4&gt;The Murder Of Roger Ackroyd&lt;/h4&gt;
+        &lt;/div&gt;
+        &lt;h5 class="item-author"&gt;- By &nbsp;Agatha Christie&lt;/h5&gt;
+        &lt;p&gt;
+            &lt;b&gt;&#8377; 300 &nbsp;&nbsp;&lt;/b&gt;&lt;del&gt;&#8377; 400&lt;/del&gt; &nbsp;&nbsp;
+            &lt;span class="discount-on-card"&gt;25% off&lt;/span&gt;
         &lt;/p&gt;
-        &lt;div class="card-button"&gt;
-            &lt;button class="outline-card-secondary-btn"&gt;
-                &lt;i class="fa fa-shopping-cart fa-x" aria-hidden="true" &gt;&lt;/i&gt;
-                &nbsp;Add To Cart
-            &lt;/button&gt;
-            &lt;button class="card-icon-btn outline-card-secondary-btn"&gt;&lt;i class="fa fa-heart-o fa-x" aria-hidden="true"&gt;&lt;/i&gt;&lt;/button&gt;
+            
+        &lt;div class="item-cart-quantity"&gt;
+            &lt;h5 class="cart-quantity-para"&gt;Quantity : &nbsp;&nbsp;&lt;/h5&gt;
+            &lt;div&gt;
+                &lt;input class="cart-item-quantity-input" type="text" maxlength="3" autocomplete="off" value="1"&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            
+        &lt;div class="cart-horizontal-card-btns card-button"&gt;
+            &lt;button class="solid-primary-btn"&gt;Remove from Cart&lt;/button&gt;
+            &lt;button class="outline-primary-btn"&gt;Move to Wishlist&lt;/button&gt;
         &lt;/div&gt;
         &lt;div class="badge-on-card"&gt;
             Best Suspense
         &lt;/div&gt;
-        &lt;button class="card-dismiss-btn outline-card-secondary-btn"&gt;X&lt;/button&gt;
     &lt;/div&gt;
 &lt;/div&gt;
                         </code>
@@ -421,28 +417,24 @@
                 <br>
                 <h2>Card with shadow</h2>
                 <div class="card-container">
-                    
+
                     <div class="card-basic">
                         <img src="../../Icons-and-Images/Book-Covers/Book_Cover-The_Gulag_Archipelago.jpg" alt="Book-The Gulag Archipelago">
                         <div class="card-item-details">
-                            <h3>The Gulag Archipelago</h3>
-                            <h4>- By Aleksandr Solzhenitsyn</h4>
-                            <p><b>&#8377; 300 &nbsp;&nbsp;</b><del>&#8377; 400</del> &nbsp;&nbsp;
-                                <p class="discount-on-card">25% off</p>
+                            <h4 class="item-title">The Gulag Archipelago</h4>
+                            <h5 class="item-author">- By &nbsp;Aleksandr Solzhenitsyn</h5>
+                            <p><b>Rs. 300 &nbsp;&nbsp;</b><del>Rs. 400</del> &nbsp;&nbsp;
+                                <p class="discount-on-card">(25% off)</p>
                             </p>
                             <div class="card-button">
-                                <button class="outline-card-secondary-btn">
-                                    <i class="fa fa-shopping-cart fa-x" aria-hidden="true" ></i>
-                                    &nbsp;Add To Cart
-                                </button>
-                                <button class="card-icon-btn outline-card-secondary-btn"><i class="fa fa-heart-o fa-x" aria-hidden="true"></i></button>
+                                <button class="card-icon-btn add-to-wishlist-btn outline-card-secondary-btn"><i class="fa fa-heart-o fa-x" aria-hidden="true"></i></button>
                             </div>
                             <div class="badge-on-card">
                                 Thought Provoking
                             </div>
-                            <button class="card-dismiss-btn outline-card-secondary-btn">X</button>
                         </div>
                     </div>
+                    
                 </div>
 
                 <h3>Note : This card has similar source code as above vertical cards</h3>

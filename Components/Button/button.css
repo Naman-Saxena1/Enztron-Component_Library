@@ -11,6 +11,68 @@
     padding: 4.8rem 1.6rem;
 }
 
+.solid-primary-btn:disabled, .solid-secondary-btn:disabled, .solid-error-btn:disabled, .solid-success-btn:disabled, .solid-warning-btn:disabled
+{
+    min-width: 14.4rem;
+    min-height: 2.2rem;
+    padding: 1.2rem;
+    margin: 0 1rem;
+    border: none;
+    border-radius: 4px;
+    font-family: Comfortaa;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--background-color);
+    background-color: var(--offline-grey-color);
+    transition: ease .3s;
+}
+
+.solid-primary-btn:disabled:hover, .solid-secondary-btn:disabled:hover, .solid-error-btn:disabled:hover, .solid-success-btn:disabled:hover, .solid-warning-btn:disabled:hover
+{
+    background-color: var(--offline-grey-color);
+    transition: ease .3s;
+}
+
+
+.solid-grey-btn
+{
+    min-width: 14.4rem;
+    min-height: 2.2rem;
+    padding: 1.2rem;
+    margin: 0 1rem;
+    border: none;
+    border-radius: 4px;
+    font-family: Comfortaa;
+    color: var(--background-color);
+    background-color: var(--dark-grey);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #282c34;
+}
+
+.solid-grey-btn
+{
+    background-position: center;
+    transition: background 0.5s;
+}
+
+.solid-grey-btn:hover
+{
+    background: #3d424d
+                radial-gradient(circle, transparent 1%, 
+                                    var(--dark-grey) 1%) center/15000%;
+}
+
+.solid-grey-btn:active 
+{
+    background-color: var(--dark-grey);
+    background-size: 100%;
+    transition: background 0s;
+}
+
+
 
 /* Primary Solid Buttons */
 .solid-secondary-btn
@@ -138,7 +200,7 @@
 
 .solid-success-btn:hover 
 {
-    background: #59d15d
+    background: #66e3c4
                 radial-gradient(circle, transparent 1%, 
                                     var(--onlinestatus-or-success) 1%) center/15000%;
 }
@@ -201,7 +263,7 @@
     min-height: 2.2rem;
     padding: 1.2rem;
     margin: 0 1rem;
-    border: 1px solid var(--dark-blue-color);
+    border: 1px solid var(--offline-grey-color);
     border-radius: 4px;
     font-family: Comfortaa;
     color: var(--dark-blue-color);
@@ -216,6 +278,7 @@
 
 .outline-secondary-btn:hover
 {
+    border: 1px solid var(--dark-blue-color);
     background: rgb(235, 235, 235)
                 radial-gradient(circle, transparent 1%, 
                 rgb(243, 243, 243) 1%) center/15000%;
@@ -235,10 +298,10 @@
     min-height: 2.2rem;
     padding: 1.2rem;
     margin: 0 1rem;
-    border: 1px solid var(--pink-color);
     border-radius: 4px;
     font-family: Comfortaa;
     color: var(--pink-color);
+    border: 1px solid var(--offline-grey-color);
     background-color: var(--background-color);
 }
 
@@ -250,6 +313,7 @@
 
 .outline-primary-btn:hover
 {
+    border: 1px solid var(--pink-color);
     background: rgb(235, 235, 235)
                 radial-gradient(circle, transparent 1%, 
                 rgb(243, 243, 243) 1%) center/15000%;
